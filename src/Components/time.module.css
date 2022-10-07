@@ -1,0 +1,36 @@
+.container{
+    padding: 110px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+
+}
+.imageContainer{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+.paragraph{
+    width: 50%;
+}
+.imageContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.image_title{
+    padding: 10px 30px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.title_paragraph{
+    color: #191970;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.paragraph_li{
+    font-size: 20px;
+    padding: 5px 0px;
+    font-weight: 600;
+}

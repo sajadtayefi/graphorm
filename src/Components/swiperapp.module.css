@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0px 0px 0px;
+}
+.title{
+    font-size: 36px;
+    font-weight: 600;
+}
+.btn_container {
+  margin: 30px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+}
+.btn {
+  background-color: #fff;
+  border: none;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 80px;
+  align-items: center;
+  padding: 10px;
+  border-top: 6px solid #191970;
+}
+.ptag {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 2px 0px;
+}
+.icon_cname {
+}
+.textCname {
+  font-size: 20px;
+  margin-right: 60px;
+}

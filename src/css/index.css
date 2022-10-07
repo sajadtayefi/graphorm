@@ -1,0 +1,11 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+
+html, body {
+    direction: rtl;
+    font-family: yekan;
+   
+}
+
+[class^="swiper_container"] {
+    outline: none !important;
+}
