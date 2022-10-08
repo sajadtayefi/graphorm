@@ -9,3 +9,20 @@ html, body {
 [class^="swiper_container"] {
     outline: none !important;
 }
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap,10px);
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 88px;
+    left: 850px;
+    width: 120px;
+    background-color: #ffffff;
+}
+.swiperapp_container__KID0A {
+    padding: 80px 0px 100px 0px;
+    text-align: center;
+    border-bottom: 1px solid #dedee6;
+}
+:root {
+    --swiper-theme-color: #adb1bf;
+}

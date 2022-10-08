@@ -1,0 +1,14 @@
+.container {
+  margin: 0px 5px;
+  z-index: 10;
+}
+.btn {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #acb1c0;
+  border-radius: 50%;
+  background: #f0f0f0;
+}
+.icon {
+  color: #acb1c0;
+}

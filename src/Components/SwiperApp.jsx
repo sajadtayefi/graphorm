@@ -1,24 +1,25 @@
 import styles from "./swiperapp.module.css"
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
 import { SwiperBtnItems } from '../constant/SwiperBtnItems'
 import Button from "./common/Button"
 import { useTranslation } from "react-i18next";
+import SliderComponent from "./common/SliderComponent";
+import { SliderItems } from "../constant/SliderItems";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import SlidePrev from "./common/SlidePrev";
+import SlideNext from "./common/SlideNext";
+
 
 
 function SwiperApp() {
     const { t } = useTranslation();
-    const settings = {
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-    };
     return (
         <div className={styles.container}>
-            <h3 className={styles.title}>انعطاف پذیر با امکاناتی بی نذیر</h3>
-
+            <h3 className={styles.title}>{t('swiperapp.title')}</h3>
             <div className={styles.btn_container}>
                 {SwiperBtnItems.map((i) => {
                     return (
@@ -36,10 +37,38 @@ function SwiperApp() {
                     )
                 })}
             </div>
-            <Slider {...settings}>
-
-            </Slider>
-        </div>
+            <div className="">
+                <Swiper
+                    loop={true}
+                    modules={[Pagination]}
+                    spaceBetween={50}
+                    slidesPerView={1}
+                    speed={400}
+                    pagination={{ clickable: true }}
+                    onSlideChange={() => console.log('slide change')}
+                >
+                    {SliderItems.map((i) => {
+                        return (
+                            <div>
+                                <SwiperSlide className={styles.swiperslide}>
+                                    <SliderComponent
+                                        li_one={t(i.li_one)}
+                                        li_two={t(i.li_two)}
+                                        li_three={t(i.li_three)}
+                                        li_four={t(i.li_four)}
+                                        image={i.image}
+                                    />
+                                </SwiperSlide>
+                            </div>
+                        )
+                    })}
+                    <div className={styles.arrows} >
+                        <SlideNext />
+                        <SlidePrev />
+                    </div>
+                </Swiper>
+            </div>
+        </div >
     );
 }
 
