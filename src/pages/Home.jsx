@@ -11,6 +11,7 @@ import Immediate from "../Components/Immediate";
 import Security from "../Components/Security";
 import Easy from "../Components/Easy";
 import SwiperApp from "../Components/SwiperApp";
+import PeopleSay from "../Components/PeopleSay";
 
 
 function Home() {
@@ -29,6 +30,7 @@ function Home() {
             <Security />
             <Easy />
             <SwiperApp />
+            <PeopleSay />
         </div>
     );
 }

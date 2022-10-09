@@ -1,0 +1,24 @@
+.container {
+}
+.swiper {
+  position: relative;
+}
+
+.arrows {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 150px;
+  background-color: #fff;
+  position: absolute;
+  display: flex;
+  align-self: flex-start;
+  bottom: 75px;
+  left: 0;
+}
+.border{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+

@@ -1,0 +1,33 @@
+.container {
+  border-radius: 10px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #adb1bf;
+  height: 400px;
+  position: relative;
+  padding: 20px;
+
+}
+.logo {
+  margin: 20px;
+  width: 50px;
+  height: 50px;
+}
+.title {
+}
+.discretion {
+  width: 400px;
+}
+.co_profile {
+}
+.avatar {
+    border-radius: 50%;
+    width: 40px;
+}
+.profile {
+}
+.name {
+}
+.jobTitle {
+}

@@ -1,8 +1,8 @@
 .container {
   width: 100%;
-  padding: 80px 0px 100px 0px;
+  padding: 80px 0px 0px 0px;
   text-align: center;
-  border-bottom: 1px solid rgb(131, 130, 130);
+  
 }
 .title {
   font-size: 36px;
@@ -26,6 +26,7 @@
   padding: 10px;
   border-top: 6px solid #191970;
 }
+
 .ptag {
   width: 100%;
   display: flex;
