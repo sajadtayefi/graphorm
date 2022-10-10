@@ -1,4 +1,4 @@
-import styles from "./swiperapp.module.css"
+import styles from "./swiperflexible.module.css"
 import { SwiperBtnItems } from '../constant/SwiperBtnItems'
 import Button from "./common/Button"
 import { useTranslation } from "react-i18next";

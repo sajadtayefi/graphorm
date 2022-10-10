@@ -9,13 +9,13 @@ import SlidePrev from "./SlidePrev";
 import SlideNext from "./SlideNext";
 
 
-function MainSlider({ renderItem, item, slidesperview }) {
+function SwiperFlexible({ renderItem, item, slidesperview }) {
     return (
         <div className={styles.container}>
             <Swiper
                 loop={true}
                 modules={[Pagination]}
-                spaceBetween={0}
+                spaceBetween={10}
                 slidesPerView={slidesperview}
                 speed={400}
                 pagination={{ clickable: true }}
@@ -37,4 +37,4 @@ function MainSlider({ renderItem, item, slidesperview }) {
     );
 }
 
-export default MainSlider;
+export default SwiperFlexible;

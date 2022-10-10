@@ -1,12 +1,12 @@
 
-
+.container{
+  position: relative;
+}
 .arrows {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  width: 150px;
-  background-color: #fff;
   position: absolute;
   display: flex;
   align-self: flex-start;
@@ -17,3 +17,4 @@
   width: 100%;
   padding: 0px 0px 100px 0px;
 }
+

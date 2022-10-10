@@ -27,3 +27,18 @@ body {
 :root {
   --swiper-theme-color: #adb1bf;
 }
+.swiperpeoplesay_container__SuT3U::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  background-color: #e9e9ef;
+  left: 0px;
+  right: 0px;
+  bottom: 100px;
+  z-index: 0;
+}
+
+
+.swiperpeoplesay_container__SuT3U {
+    position: relative;
+}

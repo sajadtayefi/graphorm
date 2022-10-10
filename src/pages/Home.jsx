@@ -10,8 +10,8 @@ import Documentation from "../Components/Documentation";
 import Immediate from "../Components/Immediate";
 import Security from "../Components/Security";
 import Easy from "../Components/Easy";
-import SwiperApp from "../Components/SwiperApp";
-import PeopleSay from "../Components/PeopleSay";
+import SwiperPeopleSay from "../Components/SwiperPeopleSay";
+import SwiperFlexible from "../Components/SwiperFlexible";
 
 
 function Home() {
@@ -29,8 +29,8 @@ function Home() {
             <Immediate />
             <Security />
             <Easy />
-            <SwiperApp />
-            <PeopleSay />
+            <SwiperFlexible />
+            <SwiperPeopleSay />
         </div>
     );
 }
