@@ -7,10 +7,9 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import SlidePrev from "./SlidePrev";
 import SlideNext from "./SlideNext";
-import { peopleItems } from "../../constant/SwiperPeopleItems";
 
 
-function MainSlider({ renderItem ,item,slidesperview }) {
+function MainSlider({ renderItem, item, slidesperview }) {
     return (
         <div className={styles.container}>
             <Swiper
@@ -22,7 +21,7 @@ function MainSlider({ renderItem ,item,slidesperview }) {
                 pagination={{ clickable: true }}
                 onSlideChange={() => console.log('slide change')}
             >
-                {item.map((i , index) => {
+                {item.map((i, index) => {
                     return (
                         <SwiperSlide key={index} className={styles.swiperslide}>
                             {renderItem(i)}
