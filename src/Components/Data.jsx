@@ -11,9 +11,9 @@ function Data() {
             <div className={styles.paragraph}>
                 <h3 className={styles.paragraph_title}>{t('data.title')}</h3>
                 <ul>
-                    {dataItem.map((i) => {
+                    {dataItem.map((i ,index) => {
                         return (
-                            <li className={styles.paragraph_li} dangerouslySetInnerHTML={{ __html: t(i.text) }} />
+                            <li key={index} className={styles.paragraph_li} dangerouslySetInnerHTML={{ __html: t(i.text) }} />
                         )
                     })}
                 </ul>

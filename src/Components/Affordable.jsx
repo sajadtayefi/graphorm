@@ -12,9 +12,9 @@ function Affordable() {
                     {t('affordable.title')}
                 </h3>
                 <ul>
-                    {affordableItem.map((i) => {
+                    {affordableItem.map((i ,index) => {
                         return (
-                            <li className={styles.paragraph_li} dangerouslySetInnerHTML={{ __html: t(i.text) }} />
+                            <li key={index} className={styles.paragraph_li} dangerouslySetInnerHTML={{ __html: t(i.text) }} />
                         );
                     })}
                 </ul>

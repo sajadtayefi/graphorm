@@ -8,6 +8,8 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import MainSlider from "./common/MainSlider";
 import SliderComponent from "./common/SliderComponent";
+import { SliderItems } from "../constant/SwiperFlexibleItems"
+
 
 
 
@@ -17,7 +19,7 @@ function SwiperApp() {
         <div className={styles.container}>
             <h3 className={styles.title}>{t('swiperapp.title')}</h3>
             <div className={styles.btn_container}>
-                {SwiperBtnItems.map((i) => {
+                {SwiperBtnItems.map((i, index) => {
                     return (
                         <>
                             <Button
@@ -33,8 +35,10 @@ function SwiperApp() {
                     )
                 })}
             </div>
-            <div className="">
+            <div>
                 <MainSlider
+                    slidesperview={1}
+                    item={SliderItems}
                     renderItem={i => (
                         <SliderComponent
                             li_one={t(i.li_one)}

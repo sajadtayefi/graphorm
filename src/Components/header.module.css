@@ -4,3 +4,21 @@
   top: 0px;
   z-index: 20;
 }
+.Cname {
+  display: inline-block;
+  margin: 0px 10px;
+}
+.Cname:hover{
+  color: #191970 !important;
+}
+.Cname:after {
+  display: block;
+  content: "";
+  border-bottom: solid 1px #191970;
+  transform: scaleX(0);
+  transition: transform 200ms ease-in-out;
+}
+.Cname:hover:after {
+  color: #191970 !important;
+  transform: scaleX(1);
+}

@@ -1,5 +1,4 @@
 import styles from "./mainslider.module.css"
-import { SliderItems } from "../../constant/SliderItems";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper';
 import 'swiper/css';
@@ -11,21 +10,21 @@ import SlideNext from "./SlideNext";
 import { peopleItems } from "../../constant/SwiperPeopleItems";
 
 
-function MainSlider({ renderItem }) {
+function MainSlider({ renderItem ,item,slidesperview }) {
     return (
-        <div>
+        <div className={styles.container}>
             <Swiper
                 loop={true}
                 modules={[Pagination]}
-                spaceBetween={50}
-                slidesPerView={1}
+                spaceBetween={0}
+                slidesPerView={slidesperview}
                 speed={400}
                 pagination={{ clickable: true }}
                 onSlideChange={() => console.log('slide change')}
             >
-                {SliderItems.map((i) => {
+                {item.map((i , index) => {
                     return (
-                        <SwiperSlide className={styles.swiperslide}>
+                        <SwiperSlide key={index} className={styles.swiperslide}>
                             {renderItem(i)}
                         </SwiperSlide>
                     )

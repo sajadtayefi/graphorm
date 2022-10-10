@@ -6,6 +6,8 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import Cardslider from "../Components/common/CardSlider"
 import MainSlider from "./common/MainSlider";
+import { peopleItems } from "../constant/SwiperPeopleItems";
+
 
 
 function PeopleSay() {
@@ -16,8 +18,11 @@ function PeopleSay() {
                 {t('people-say.title')}
             </h2>
             <MainSlider
+                slidesperview={2}
+                item={peopleItems}
                 renderItem={i => (
                     <Cardslider
+
                         logo={i.logo}
                         title={t(i.title)}
                         discretion={t(i.paragrph)}

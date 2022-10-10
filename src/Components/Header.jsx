@@ -25,8 +25,8 @@ function Header() {
           >
             {Items.map((i) => {
               return (
-                <Nav.Link key={i.id} className={i.Cname} href="#" >
-                  <span>{t(i?.name)}</span>
+                <Nav.Link key={i.id} className={styles.Cname} href="#" >
+                  <span >{t(i?.name)}</span>
                   <span>{i?.icon}</span>
                 </Nav.Link>
               )
