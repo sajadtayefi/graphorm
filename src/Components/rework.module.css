@@ -8,15 +8,15 @@
 .paragraph {
   width: 50%;
 }
-.paragraph_title{
-    color: #191970;
-    font-size: 22px;
-    font-weight: 600;
+.paragraph_title {
+  color: #191970;
+  font-size: 22px;
+  font-weight: 600;
 }
-.paragraph_li{
-    font-weight: 600;
-    font-size: 20px;
-    padding: 5px 0px;
+.paragraph_li {
+  font-weight: 600;
+  font-size: 20px;
+  padding: 5px 0px;
 }
 
 .image {

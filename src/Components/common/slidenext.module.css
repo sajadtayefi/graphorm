@@ -5,16 +5,16 @@
 .btn {
   height: 50px;
   width: 50px;
-  border:  2px solid  #aeb3c25b;
+  border: 2px solid #aeb3c25b;
   -webkit-background-clip: padding-box; /* for Safari */
   background-clip: padding-box;
   border-radius: 50%;
   background: #f0f0f0;
 }
-.btn:hover{
+.btn:hover {
   transition: ease-in-out;
   transition-duration: 300ms;
-  border:2px solid  #8186929a;
+  border: 2px solid #8186929a;
 }
 .icon {
   color: #acb1c0;

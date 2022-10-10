@@ -10,7 +10,7 @@ import { useTranslation } from "react-i18next";
 
 
 function Header() {
-  const {t} = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <Navbar className={`${styles.navbar} w-100`} bg="light" expand="lg">

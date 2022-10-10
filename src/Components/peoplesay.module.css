@@ -1,5 +1,5 @@
-.container {
-}
+/* .container {
+} */
 .swiper {
   position: relative;
 }
@@ -17,8 +17,7 @@
   bottom: 75px;
   left: 0;
 }
-.border{
-    width: 100%;
-    border-bottom: 1px solid black;
+.border {
+  width: 100%;
+  border-bottom: 1px solid black;
 }
-

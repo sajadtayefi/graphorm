@@ -15,18 +15,16 @@ function PeopleSay() {
             <h2 className={styles.title}>
                 {t('people-say.title')}
             </h2>
-            <div>
-                <MainSlider
-                    renderItem={i => (
-                        <Cardslider
-                            logo={i.logo}
-                            title={t(i.title)}
-                            discretion={t(i.paragrph)}
-                            avatar={i.avatar}
-                        />
-                    )}
-                />
-            </div>
+            <MainSlider
+                renderItem={i => (
+                    <Cardslider
+                        logo={i.logo}
+                        title={t(i.title)}
+                        discretion={t(i.paragrph)}
+                        avatar={i.avatar}
+                    />
+                )}
+            />
         </div>
     );
 }

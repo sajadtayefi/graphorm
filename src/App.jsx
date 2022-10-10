@@ -5,8 +5,8 @@ import styles from './app.module.css'
 function App() {
   return (
     <div className={styles.app}>
-      <Header/>
-      <Home/>
+      <Header />
+      <Home />
     </div>
   );
 }

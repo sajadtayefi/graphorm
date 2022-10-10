@@ -1,24 +1,29 @@
-@import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+@import "../../node_modules/bootstrap/dist/css/bootstrap.css";
 
-html, body {
-    direction: rtl;
-    font-family: yekan;
-   
+html,
+body {
+  direction: rtl;
+  font-family: yekan;
 }
 
 [class^="swiper_container"] {
-    outline: none !important;
+  outline: none !important;
 }
-.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-    margin: 0 var(--swiper-pagination-bullet-horizontal-gap,10px);
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 10px);
 }
-.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
-    bottom: 88px;
-    left: 850px;
-    width: 120px;
-    background-color: #ffffff;
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 88px;
+  left: 850px;
+  width: 120px;
+  background-color: #ffffff;
 }
 
 :root {
-    --swiper-theme-color: #adb1bf;
+  --swiper-theme-color: #adb1bf;
 }

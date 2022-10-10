@@ -8,9 +8,10 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import SlidePrev from "./SlidePrev";
 import SlideNext from "./SlideNext";
+import { peopleItems } from "../../constant/SwiperPeopleItems";
 
 
-function MainSlider({renderItem}) {
+function MainSlider({ renderItem }) {
     return (
         <div>
             <Swiper

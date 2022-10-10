@@ -6,7 +6,7 @@ export const SwiperItem = [
     {
         h3: 'swiper.swiper-one.title',
         p: 'swiper.swiper-one.discretion',
-        btn:'swiper.swiper-one.btn',
+        btn: 'swiper.swiper-one.btn',
         id: 1,
         image: slideOne,
         alt: 'firstSlide',
@@ -16,8 +16,8 @@ export const SwiperItem = [
     ,
     {
         h3: 'swiper.swiper-two.title',
-        p:'swiper.swiper-two.discretion',
-        btn:'swiper.swiper-two.btn',
+        p: 'swiper.swiper-two.discretion',
+        btn: 'swiper.swiper-two.btn',
         id: 2,
         image: slideTwo,
         alt: 'secondSlide',

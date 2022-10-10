@@ -1,44 +1,42 @@
-.container{
-    border-bottom: solid 5px #191970 !important;
-    border: none;
-    padding: 80px 0px 0px 0px ;
+.container {
+  border-bottom: solid 5px #191970 !important;
+  border: none;
+  padding: 80px 0px 0px 0px;
 }
 
-.btn{
-    border-radius: 5px;
-    background-color:#191970;
-    color: aliceblue;
-    display: flex;
-    align-items: center;
-    height: 50px;
-    padding: 0px 20px;
-    font-size: 20px;
-    border: none;
+.btn {
+  border-radius: 5px;
+  background-color: #191970;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 0px 20px;
+  font-size: 20px;
+  border: none;
 }
 
-.btn:hover{
-    background-color:#121252;
+.btn:hover {
+  background-color: #121252;
 }
-.h3{
-    font-size: 40px;  
-    padding: 50px 0px 10px 0px;
-    color: #191970;
-    font-family: yekan;
-    font-weight: 600;
+.h3 {
+  font-size: 40px;
+  padding: 50px 0px 10px 0px;
+  color: #191970;
+  font-family: yekan;
+  font-weight: 600;
 }
-.p{
-    color: darkgray;
-    font-family: yekan;
-    font-size: 25px;
-    font-weight: 100;
-    padding: 10px 0px;
+.p {
+  color: darkgray;
+  font-family: yekan;
+  font-size: 25px;
+  font-weight: 100;
+  padding: 10px 0px;
 }
 
 .btn p {
-    font-weight: 500;
-    align-self: center;
-    margin: 10px 0px;
-    font-family: yekan;
-
+  font-weight: 500;
+  align-self: center;
+  margin: 10px 0px;
+  font-family: yekan;
 }
-

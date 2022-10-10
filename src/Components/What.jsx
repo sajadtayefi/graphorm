@@ -3,7 +3,7 @@ import styles from "./what.module.css"
 import { useTranslation } from "react-i18next";
 
 function What() {
-    const {t} = useTranslation();
+    const { t } = useTranslation();
 
     return (
         <div className={styles.container}>
@@ -23,7 +23,7 @@ function What() {
                 </h3>
                 <h3 className={`${styles.h3_five}`} >
                     <span className={`${styles.span}`}>{t('what.paragraph-three.first')}</span>
-                    <span className=' text-danger'>{t('what.paragraph-three.red')}</span> 
+                    <span className=' text-danger'>{t('what.paragraph-three.red')}</span>
                     <span>{t('what.paragraph-three.end')}</span>
                 </h3>
             </div>

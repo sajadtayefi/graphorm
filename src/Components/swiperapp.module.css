@@ -2,7 +2,6 @@
   width: 100%;
   padding: 80px 0px 0px 0px;
   text-align: center;
-  
 }
 .title {
   font-size: 36px;
@@ -44,7 +43,7 @@
   width: 100%;
   padding: 0px 0px 100px 0px;
 }
-.arrows{
+.arrows {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -56,5 +55,4 @@
   align-self: flex-start;
   bottom: 75px;
   left: 0;
-  
 }

@@ -1,4 +1,9 @@
 .container {
+  padding: 0px 0px 80px 0px !important;
+  border-bottom: 1px solid #adb1bf;
+}
+
+.container_items {
   border-radius: 10px;
   width: 500px;
   display: flex;
@@ -6,28 +11,27 @@
   border: 1px solid #adb1bf;
   height: 400px;
   position: relative;
-  padding: 20px;
-
+  padding: 0px 0px 80px 0px !important;
 }
 .logo {
   margin: 20px;
   width: 50px;
   height: 50px;
 }
-.title {
-}
+/* .title {
+} */
 .discretion {
   width: 400px;
 }
-.co_profile {
-}
+/* .co_profile {
+} */
 .avatar {
-    border-radius: 50%;
-    width: 40px;
+  border-radius: 50%;
+  width: 40px;
 }
-.profile {
+/* .profile {
 }
 .name {
 }
 .jobTitle {
-}
+} */

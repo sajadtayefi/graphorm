@@ -1,23 +1,23 @@
-.container{
-    padding: 110px 0px 0px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row-reverse;
+.container {
+  padding: 110px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
 }
-.paragraph{
-    width: 50%;
+.paragraph {
+  width: 50%;
 }
-.image{
-    width: 50%;
+.image {
+  width: 50%;
 }
-.paragraph_title{
-    color: #191970;
-    font-size: 22px;
-    font-weight: 600;
+.paragraph_title {
+  color: #191970;
+  font-size: 22px;
+  font-weight: 600;
 }
-.paragraph_li{
-    font-size: 20px;
-    padding: 5px 0px;
-    font-weight: 600;
+.paragraph_li {
+  font-size: 20px;
+  padding: 5px 0px;
+  font-weight: 600;
 }
