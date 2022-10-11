@@ -41,11 +41,14 @@ function SwiperApp() {
                     item={SliderItems}
                     renderItem={i => (
                         <SliderComponent
-                            li_one={t(i.li_one)}
-                            li_two={t(i.li_two)}
-                            li_three={t(i.li_three)}
-                            li_four={t(i.li_four)}
                             image={i.image}
+                            item={i.item.map((item) => {
+                                return (
+                                    <li>
+                                        {t(item)}
+                                    </li>
+                                )
+                            })}
                         />
                     )}
                 />

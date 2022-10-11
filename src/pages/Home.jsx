@@ -14,6 +14,7 @@ import SwiperPeopleSay from "../Components/SwiperPeopleSay";
 import SwiperFlexible from "../Components/SwiperFlexible";
 import SwiperNews from "../Components/SwiperNews";
 import Customers from "../Components/Customers";
+import Footer from "../Components/Footer";
 
 
 function Home() {
@@ -35,6 +36,7 @@ function Home() {
             <SwiperPeopleSay />
             <SwiperNews />
             <Customers />
+            <Footer />
         </div>
     );
 }
