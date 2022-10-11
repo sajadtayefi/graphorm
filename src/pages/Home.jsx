@@ -13,6 +13,7 @@ import Easy from "../Components/Easy";
 import SwiperPeopleSay from "../Components/SwiperPeopleSay";
 import SwiperFlexible from "../Components/SwiperFlexible";
 import SwiperNews from "../Components/SwiperNews";
+import Customers from "../Components/Customers";
 
 
 function Home() {
@@ -33,6 +34,7 @@ function Home() {
             <SwiperFlexible />
             <SwiperPeopleSay />
             <SwiperNews />
+            <Customers />
         </div>
     );
 }
