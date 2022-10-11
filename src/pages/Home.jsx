@@ -12,6 +12,7 @@ import Security from "../Components/Security";
 import Easy from "../Components/Easy";
 import SwiperPeopleSay from "../Components/SwiperPeopleSay";
 import SwiperFlexible from "../Components/SwiperFlexible";
+import SwiperNews from "../Components/SwiperNews";
 
 
 function Home() {
@@ -31,6 +32,7 @@ function Home() {
             <Easy />
             <SwiperFlexible />
             <SwiperPeopleSay />
+            <SwiperNews />
         </div>
     );
 }
