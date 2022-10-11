@@ -37,6 +37,9 @@ function Footer() {
                     <label htmlFor="input">{t('footer.list-four.btn')}</label>
                 </div>
             </div>
+            <h3 className={styles.copyright}>
+                {t('footer.copy&right')}
+            </h3>
         </div>
     );
 }
