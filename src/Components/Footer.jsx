@@ -2,6 +2,13 @@ import { useTranslation } from "react-i18next";
 import enamad from "../Asset/icons/DEV-enamad.png"
 import { FooterItems } from "../constant/FooterItems";
 import styles from "./footer.module.css"
+import Button from './common/Button.jsx'
+import { SiInstagram } from 'react-icons/si';
+import { FaTwitter } from 'react-icons/fa';
+import { SiLinkedin } from 'react-icons/si'
+
+
+
 
 function Footer() {
     const { t } = useTranslation();
@@ -21,7 +28,7 @@ function Footer() {
 
                             {i.items.map((item, index) => {
                                 return (
-                                    <li key={index}>
+                                    <li className="my-2" key={index}>
                                         {t(item)}
                                     </li>
                                 )
@@ -33,8 +40,22 @@ function Footer() {
                     <h3 className={styles.newstitle}>
                         {t('footer.list-four.title')}
                     </h3>
-                    <input name="input" className={styles.input} type="text" />
-                    <label htmlFor="input">{t('footer.list-four.btn')}</label>
+                    <div className={styles.list_four}>
+                        <div className={styles.input_co}>
+                            <input name="input" className={styles.input} type="text" />
+                            <Button
+                                text={t('footer.list-four.btn')}
+                                ptag={styles.ptag}
+                                Cname={styles.btn}
+                            />
+                        </div>
+                        <div className="">
+                            <SiInstagram className="mx-3 my-3" size={24} />
+                            <FaTwitter className="mx-3 my-3" size={24} />
+                            <SiLinkedin className="mx-3 my-3" size={24} />
+                        </div>
+
+                    </div>
                 </div>
             </div>
             <h3 className={styles.copyright}>

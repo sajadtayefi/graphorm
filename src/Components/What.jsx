@@ -8,27 +8,16 @@ function What() {
     return (
         <div className={styles.container}>
             <div className={styles.paragraph}>
-                <h3 className={styles.h3_one}>
-                    {t('what.title')}
+                <h3 className={styles.h3_one}  >
+                    {t('what.main-title')}
                 </h3>
-                <h3 className={styles.h3_two}>
-                    {t('what.head.first')} <span className=" text-danger">{t('what.head.red')}</span>{t('what.head.end')}
-                </h3>
-                <h3 className={`${styles.h3_three} `}>
-                    <span className=" text-black"> {t('what.paragraph-one.normal')} {t('what.paragraph-one.normal')}</span>
-                    <span>{t('what.paragraph-one.blue')}</span>
-                </h3>
-                <h3 className={styles.h3_four}>
-                    <span className={`${styles.span}`}>{t('what.paragraph-two.normal')}</span> <span className=" text-danger">{t('what.paragraph-two.red')}</span>{t('what.paragraph-two.bold')}
-                </h3>
-                <h3 className={`${styles.h3_five}`} >
-                    <span className={`${styles.span}`}>{t('what.paragraph-three.first')}</span>
-                    <span className=' text-danger'>{t('what.paragraph-three.red')}</span>
-                    <span>{t('what.paragraph-three.end')}</span>
-                </h3>
+                <h3 className={styles.h3_two} dangerouslySetInnerHTML={{ __html: t('what.title') }} />
+                <h3 className={`${styles.h3_three} `} dangerouslySetInnerHTML={{ __html: t('what.paragraph-one') }} />
+                <h3 className={styles.h3_four} dangerouslySetInnerHTML={{ __html: t('what.paragraph-two') }} />
+                <h3 className={`${styles.h3_five}`} dangerouslySetInnerHTML={{ __html: t('what.paragraph-three') }} />
             </div>
             <div className={styles.image}>
-                <img className="w-75" src={whatimg} alt="" />
+                <img className="w-75" src={whatimg} alt="whatimg" />
             </div>
         </div>
     );

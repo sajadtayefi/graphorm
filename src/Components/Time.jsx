@@ -10,17 +10,7 @@ function Time() {
     return (
         <div className={styles.container}>
             <div className={styles.imageContainer}>
-                <h2 className={styles.image_title}>
-                    <span>
-                        {t('time.image-title.part-one')}
-                    </span>
-                    <span className=" ">
-                        {t('time.image-title.part-two')}
-                    </span>
-                    <span>
-                        {t('time.image-title.part-three')}
-                    </span>
-                </h2>
+                <h2 className={styles.image_title} dangerouslySetInnerHTML={{ __html: t('time.image-title') }} />
                 <img className={styles.image} src={saving_time} alt="" />
             </div>
             <div className={styles.paragraph}>
