@@ -15,19 +15,17 @@
 .h3_three,
 .h3_four,
 .h3_five {
-  font-family: yekan;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   padding: 10px;
-  font-weight: 600;
 }
 .h3_one {
+  font-size: 20px!important;
+  font-weight: 800;
   color: #191970;
 }
 
-.h3_three {
-  color: #0dcaf0;
-}
+
 .span {
   font-weight: 100;
 }

@@ -3,8 +3,12 @@
 html,
 body {
   direction: rtl;
-  font-family: yekan;
-
+  font-family: iransans;
+}
+@font-face {
+  font-family: iransans;
+  src: url('../Asset/fonts/IRANSansWeb.ttf');
+  src: url('../Asset/fonts/IRANSansWeb.woff');
 }
 
 [class^="swiper_container"] {
@@ -67,4 +71,9 @@ body {
 
 .swiperpeoplesay_container__SuT3U {
   position: relative;
+}
+.stork {
+  background-color: #badeff;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 8px transparent;
 }

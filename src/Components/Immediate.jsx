@@ -9,7 +9,7 @@ function Immediate() {
     return (
         <div className={styles.container}>
             <div className={styles.paragraph}>
-                <h3 className={styles.paragraph_title}>{t('data.title')}</h3>
+                <h3 className={styles.paragraph_title}>{t('immediate.title')}</h3>
                 <ul>
                     {ImmediateItems.map((i, index) => {
                         return (

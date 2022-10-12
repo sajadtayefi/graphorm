@@ -5,6 +5,8 @@ import logo from '../Asset/icons/logo.png'
 import { Items } from '../constant/NavbarItems';
 import styles from './header.module.css'
 import { useTranslation } from "react-i18next";
+import { BsGlobe2 } from 'react-icons/bs';
+
 
 
 
@@ -15,7 +17,10 @@ function Header() {
   return (
     <Navbar className={`${styles.navbar} w-100`} bg="light" expand="lg">
       <Container className={styles.container}>
-        <Navbar.Brand href="#"> زبان</Navbar.Brand>
+        <Navbar.Brand className='d-flex flex-row-reverse justify-content-center align-items-center' href="#">
+          <span className=''>{t('navbar.app-name')}</span>
+          <img className=' m-2 w-25 ' src={logo} alt="logo" />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -26,17 +31,21 @@ function Header() {
             {Items.map((i) => {
               return (
                 <Nav.Link key={i.id} className={styles.Cname} href="#" >
-                  <span >{t(i?.name)}</span>
+                  <span className={styles.span} >{t(i?.name)}</span>
                   <span>{i?.icon}</span>
                 </Nav.Link>
               )
             })}
           </Nav>
         </Navbar.Collapse>
-        <Navbar.Brand className='d-flex flex-row-reverse justify-content-center align-items-center' href="#">
-          <img className=' m-2 w-25 ' src={logo} alt="logo" />
-          <span className=''>{t('navbar.app-name')}</span>
+
+        <Navbar.Brand className={styles.brandlng} href="#">
+          <BsGlobe2 size={20} />
+          <span className={styles.span}>
+            {t('navbar.language')}
+          </span>
         </Navbar.Brand>
+
       </Container>
     </Navbar>
   );

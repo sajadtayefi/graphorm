@@ -23,12 +23,10 @@
   font-size: 40px;
   padding: 50px 0px 10px 0px;
   color: #191970;
-  font-family: yekan;
   font-weight: 600;
 }
 .p {
   color: darkgray;
-  font-family: yekan;
   font-size: 25px;
   font-weight: 100;
   padding: 10px 0px;
@@ -38,5 +36,4 @@
   font-weight: 500;
   align-self: center;
   margin: 10px 0px;
-  font-family: yekan;
 }

@@ -4,17 +4,17 @@ import Time from "../Components/Time";
 import What from "../Components/What";
 import Rework from "../Components/Rework";
 import Affordable from "../Components/Affordable";
-import Data from "../Components/Data";
 import Confusion from "../Components/Confusion";
 import Documentation from "../Components/Documentation";
 import Immediate from "../Components/Immediate";
-import Security from "../Components/Security";
+import SecurityData from "../Components/SecurityData";
 import Easy from "../Components/Easy";
 import SwiperPeopleSay from "../Components/SwiperPeopleSay";
 import SwiperFlexible from "../Components/SwiperFlexible";
 import SwiperNews from "../Components/SwiperNews";
 import Customers from "../Components/Customers";
 import Footer from "../Components/Footer";
+import DataRepeat from "../Components/DataRepeat";
 
 
 function Home() {
@@ -26,11 +26,11 @@ function Home() {
             <Time />
             <Rework />
             <Affordable />
-            <Data />
+            <DataRepeat />
             <Confusion />
             <Documentation />
             <Immediate />
-            <Security />
+            <SecurityData />
             <Easy />
             <SwiperFlexible />
             <SwiperPeopleSay />

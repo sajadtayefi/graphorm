@@ -19,7 +19,6 @@
 .image_title {
   padding: 10px 30px;
   font-size: 32px;
-  font-weight: 700;
 }
 .title_paragraph {
   color: #191970;
@@ -28,7 +27,6 @@
 }
 
 .paragraph_li {
-  font-size: 20px;
+  font-size: 17px;
   padding: 5px 0px;
-  font-weight: 600;
 }

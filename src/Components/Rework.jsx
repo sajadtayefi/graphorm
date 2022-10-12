@@ -15,9 +15,7 @@ function Rework() {
                 <ul>
                     {ReworkItem.map((i) => {
                         return (
-                            <li key={i.id} className={`${styles.paragraph_li} ${i.Cname}`}>
-                                {t(i.text)}
-                            </li>
+                            <li key={i.id} dangerouslySetInnerHTML={{ __html: t(i.text) }} className={`${styles.paragraph_li} ${i.Cname}`} />
                         )
                     })}
                 </ul>
