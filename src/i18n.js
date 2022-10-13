@@ -1,6 +1,7 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import fa from './language/fa/common.json';
+import en from './language/eng/common.json'
 
 i18n
   .use(initReactI18next) // passes i18n down to react-i18next
@@ -11,6 +12,9 @@ i18n
     resources: {
       fa: {
         translation: fa
+      },
+      en: {
+        translation: en
       }
     },
     lng: "fa",

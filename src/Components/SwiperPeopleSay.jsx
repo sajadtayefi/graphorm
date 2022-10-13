@@ -7,6 +7,8 @@ import 'swiper/css/scrollbar';
 import Cardslider from "./common/CardSlider"
 import MainSlider from "./common/MainSlider";
 import { peopleItems } from "../constant/SwiperPeopleItems";
+import { FaQuoteRight } from "react-icons/fa"
+
 
 
 
@@ -14,8 +16,12 @@ function SwiperPeopleSay() {
     const { t } = useTranslation();
     return (
         <div className={styles.container}>
+            
             <h2 className={styles.title}>
-                {t('people-say.title')}
+                <FaQuoteRight />
+                <span>
+                    {t('people-say.title')}
+                </span>
             </h2>
             <div className={styles.slider}>
                 <MainSlider

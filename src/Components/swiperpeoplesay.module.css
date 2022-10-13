@@ -1,7 +1,8 @@
 .container{
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+
 }
 
 .slider {
@@ -9,9 +10,17 @@
   width: 0px;
 }
 .title{
-  padding-bottom: 352px;
-  margin-bottom: 50px;
+  display: flex;
+  font-size: 32px;
+  flex-direction: column;
+  font-weight: 600;
+  margin: 100px 0px 0px 20px;
   width: 180px;
+  color: #1e3a58;
+}
+.title span {
+  margin-top: 20px;
+
 }
 .arrows {
   display: flex;
