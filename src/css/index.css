@@ -6,8 +6,8 @@ body {
 }
 @font-face {
   font-family: iransans;
-  src: url('../Asset/fonts/IRANSansWeb.ttf');
-  src: url('../Asset/fonts/IRANSansWeb.woff');
+  src: url("../Asset/fonts/IRANSansWeb.ttf");
+  src: url("../Asset/fonts/IRANSansWeb.woff");
 }
 
 [class^="swiper_container"] {
@@ -31,7 +31,20 @@ body {
 :root {
   --swiper-theme-color: #adb1bf;
 }
-.swiperflexible_container__eYPyK::after {
+.swiperpeoplesay_container__aMimU,
+.swiperflexible_container__eYPyK,
+.swiperpeoplesay_container__SuT3U,
+.swipernews_container__RFydq,
+.swiperflexible_container__sZSik,
+.swipernews_container__nx\+uq {
+  position: relative;
+}
+.swiperpeoplesay_container__aMimU::after,
+.swiperflexible_container__eYPyK::after,
+.swiperpeoplesay_container__SuT3U::after,
+.swipernews_container__RFydq::after,
+.swiperflexible_container__sZSik::after,
+.swipernews_container__nx\+uq::after {
   content: "";
   position: absolute;
   height: 1px;
@@ -40,36 +53,6 @@ body {
   right: 0px;
   bottom: 100px;
   z-index: 0;
-}
-.swiperflexible_container__eYPyK {
-  position: relative;
-}
-.swiperpeoplesay_container__SuT3U::after {
-  content: "";
-  position: absolute;
-  height: 1px;
-  background-color: #e9e9ef;
-  left: 0px;
-  right: 0px;
-  bottom: 100px;
-  z-index: 0;
-}
-.swipernews_container__RFydq::after {
-  content: "";
-  position: absolute;
-  height: 1px;
-  background-color: #e9e9ef;
-  left: 0px;
-  right: 0px;
-  bottom: 100px;
-  z-index: 0;
-}
-.swipernews_container__RFydq {
-  position: relative;
-}
-
-.swiperpeoplesay_container__SuT3U {
-  position: relative;
 }
 .stork {
   background-color: #badeff;

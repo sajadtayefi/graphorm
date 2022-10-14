@@ -1,169 +1,170 @@
 {
-    "dir": "ltr",
-    "key":"en",
-    "navbar": {
-      "language": "EG",
-      "app-name": "گرافرم",
-      "what-is-Graphorm": "گرافرم چیست؟",
-      "buy-item": "خرید طرح",
-      "web-log": "وبلاگ",
-      "Support": "پشتیبانی",
-      "log-in": "وارد شوید"
+  "dir": "ltr",
+  "key": "en",
+  "navbar": {
+    "language": "EG",
+    "app-name": "Graphorm",
+    "what-is-Graphorm": "What is graphorm?",
+    "buy-item": "Shop Plan",
+    "web-log": "Possibilities and features",
+    "Support": "Support",
+    "log-in": "log-in"
+  },
+  "swiper": {
+    "swiper-one": {
+      "title": "Taking information in the form of specific tasks",
+      "discretion": "Collect all kinds of information in the desired geographical environment and through dynamic forms, in a short time, with low cost and high accuracy.",
+      "btn": " Create a free account"
     },
-    "swiper": {
-      "swiper-one": {
-        "title": "برداشت اطلاعات در قالب وظایف مشخص",
-        "discretion": "انواع اطلاعات را در محیط جغرافیایی مورد نظر و از طریق فرم های پویا، در زمان کوتاه ،با هزینه کم و دقت بالا برداشت کنید.",
-        "btn": "حساب کاربری رایگان ایجاد کنید"
-      },
-      "swiper-two": {
-        "title": "جمع آوری داده های تحقیقاتی به صورت مکانیزه",
-        "discretion": "کاهش آسیب های ناشی از ورود اشتباه داده های اطلاعاتی ،فرم های ناقص و اطلاعات ناکارآمد",
-        "btn": "حساب کاربری رایگان ایجاد کنید"
-      }
-    },
-    "Advantage": {
-      "title-part-one": "در عملیات جمع آوری داده های مکانی",
-      "title-part-two": "تلفن همراهتان را جایگزین فرم های کاغذی کنید.",
-      "title-part-three": "خطا ها و آسیب های ناشی از برداشت کاغذی اطلاعات را از بین ببرید."
-    },
-    "what": {
-      "main-title": "گرافرم چیست ؟",
-      "title": "<b>با <span class='text-danger'>گرافرم</span><span> جمع آوری و مدیریت داده ها را خودکار و ساده کنید.</span></b>",
-      "paragraph-one": "<b>این محصول کاملا ایرانی و <span class='text-info'> به منظور بهینه سازی عملیات برداشت اطلاعات در یک محیط جغرافیایی خاص و انجام تحلیل های موثر از داده های برداشت شده، طراحی گردیده است.  </span></b>",
-      "paragraph-two": "<span>با قابلیت اعمال کنترل های لازم ( کنترل موقعیت ها و محدوده های برداشت اطلاعات ، کنترل زمان و کنترل کاربران و کنترل فرم چک لیست یا پرسشنامه)  <b class='text-black'> <span class=\"text-danger\">گرافرم</span>  به شما از امنیت و صحت داده ها اطمینان می دهد. </b> </span>",
-      "paragraph-three": "<span class='text-black'>از طریق این محصول امکان ساخت فرم های بازدید ، بازرسی و برداشت اطلاعات مکانی،تعریف نقش ها و مشخص کردن وظایف افراد را خواهید داشت و پس از انتساب وظایف به افراد <span class='text-danger'>از طریق نرم افزار موبایل<span/> <span class='text-black'>، ثبت و برداشت اطلاعات انجام خواهد شد.<span/> <span/>"
-    },
-    "time": {
-      "image-title": "<span>گرافرم چگونه به <span class=\"stork\">کاهش هزینه ها</span>ی کسب و کارتان کمک میکند ؟</span>",
-      "title": "صرفه جویی در زمان (صرفه جویی در زمان مدیران و تیم های میدانی)",
-      "paragraph-one": "<b>زمان کمتری برای جمع آوری داده ها صرف می شود.</b>",
-      "paragraph-two": "<span><b>با حذف کاغذ در عملیات برداشت اطلاعات ، در زمان مامور و تیم های ستادی صرفه جویی میکند</b> زیرا ایجاد و چاپ فرم های کاغذی ، فرآیندی بسیار زمان بر بوده و در صورت نیاز به اصلاحات در فرمها، کل فرآیند ایجاد و چاپ می بایست تکرار شود.</span>",
-      "paragraph-three": "<b>به واسطه بکارگیری داده های پیش فرض و فیلد های انتخابی، در زمان برداشت اطلاعات صرفه جویی می کند.</b>    ",
-      "paragraph-four": "<b>زمان کمتری برای برنامه ریزی عملیات ، تجزیه و تحلیل داده ها صرف می شود</b>",
-      "paragraph-five": "<b>صرفه جویی در زمان مدیران به واسطه مکانیزه کردن برنامه ریزی های اجرای عملیات ،اعتبار سنجی دیتاها و کنترل هوشمند مامورین</b>",
-      "paragraph-six": "<b>با بکارگیری گزارشات یکپارچه و داشبوردهای اطلاعاتی با یک نگاه وضعیت عملکرد سیستم برای مدیران مشخص می باشد.</b>"
-    },
-    "rework": {
-      "title": "دوباره کاری ها را کاهش و خطا های انسانی را از بین میبرد",
-      "paragraph-one": "<b>گرافرم از طریق اعتبار سنجی اطلاعات ، کیفیت داده را تضمین می نماید و باعث می شود مدیران در تجزیه و تحلیل داده ها دچار دوباره کاری نشوند.</b>",
-      "paragraph-two": " از آنجائیکه فرم های کاغذی نیاز به کار انسانی دارند لذا هر یک از اقدامات مرتبط با چاپ و تکمیل فرم های اطلاعاتی،جمع آوری و تجزیه و تحلیل آنها در برابر خطاهای انسانی آسیب پذیر هستند.",
-      "paragraph-three": "<b>  مکانیزه کردن فرآیند جمع آوری داده ها از طریق گرافرم ، خطاهای انسانی را از بین میبرد و داده ها و تجزیه و تحلیلها را دقیق تر می کند.</b>"
-    },
-    "affordable": {
-      "title": "مقرون به صرفه",
-      "paragraph-one": "<b><span class='text-danger'>گرافرم</span> هزینه های مستقیم و پنهان استفاده از فرم های کاغذی را کاهش می دهد ،</b> مانند: هزینه کاغذ، چاپ، حمل و نقل و هزینه نیروی انسانی جهت تیم های جداگانه ای که می بایست اطلاعات برداشت شده را برای انجام تجزیه و تحلیل و تفسیر اطلاعات در سیستم وارد نمایند.",
-      "paragraph-two": "<span class=text-black font-weight-ligh>در گرافرم</span> <span class='text-info'>بدون نیاز به آموزش یا دانش برنامه نویسی</span> <span class=text-black> فرم های اطلاعاتی را ایجاد و کنترل های لازم را بر روی آن اعمال کنید و سپس از طریق تلفن همراهتان برداشت اطلاعات نمائید.</span>",
-      "paragraph-three": "<b><span class='text-danger'>گرافرم</span> به دلیل ماهیت مولتی پلتفرم خود ، روی تمام سیستم عامل های موبایلی کار میکند(IOS/Android ) و هیچ هزینه اضافی را به مامور تحمیل نمی کند.</b>"
-    },
-    "datarepeat": {
-      "title": "از تکرار و جعل داده ها جلوگیری می کند",
-      "paragraph-one": "آنجایی که در برداشت اطلاعات به صورت دستی و از طریق فرم های کاغذی ، هیچ روش واقعی برای اعتبار سنجی داده ها وجود ندارد لذا داده های جمع آوری شده ، بسیار مستعد دستکاری و جعل هستند.",
-      "paragraph-two": "<span class='text-danger'>گرافرم<span/> <span class='text-black font-weight-bold '>با استفاده از روش های هوشمند و کنترل های اعمال شده، اطلاعات برداشتی را از همه نظر اعتبار سنجی می کند <span/>"
-    },
-    "confusion": {
-      "title": "سردرگمی را کاهش و وظایف را شفاف میکند",
-      "paragraph-one": "<span class='text-black'>با برنامه ریزی اصولی و مکانیزه ، سردرگمی های بازرسین و محققین میدانی را کاهش می دهد به گونه ای که با <span/> <span class='text-danger' >گرافرم <span/> <span class='text-black font-weight-bold'>محقق یا بازرس شما از زمان و مکان انجام کار و شرح وظیفه خود (task) کاملا آگاه هست <span/> و تاریخ سررسید و حتی اولویت وظیفه خود را به خوبی می داند."
-    },
-    "documentation": {
-      "title": "مستندات کامل و داده های چند رسانه ای جمع آوری میکند",
-      "paragraph-one": "<span class='text-black font-weight-light'>فرم های مبتنی بر کاغذ فقط قادر به جمع آوری داده های متنی هستند. در حالی که <span/><span class='text-danger'>گرافرم<span/> <span class='text-black font-weight-bold'> قابلیت جمع آوری داده های چند رسانه ای ، مانند عکس، صدا، فیلم و غیره را دارد. <span/>",
-      "paragraph-two": "<span class='font-weight-light '>این داده ها هر زمان که لازم باشد به آسانی در دسترس هستند و امکان نمایش دارند و به مشتریان اجازه می دهد تا پایگاه داده گسترده تر و قوی تری بسازند و بینش عمیق تری از اطلاعات برداشت شده داشته باشند.<span/>"
-    },
-    "immediate": {
-      "title": "در دسترس بودن فوری داده ها را تضمین می کند",
-      "paragraph-one": "یافتن داده ای خاص از بین اطلاعات جمع آوری شده در فرم های کاغذی، می تواند به شدت زمانبر و خسته کننده باشد. اگرچه معمولا فرم های کاغذی دسته بندی و نشان گذاری می شوند، اما جستجو در میان آنها مستلزم صرف زمان بوده و اگر فوراً به داده ای نیاز داشته باشید دچار مشکل خواهید شد",
-      "paragraph-two": "علاوه بر <span class='text-black font-weight-bold'>سهولت یافتن داده ها<span/> ، ارسال لحظه ای اطلاعات در گرافرم <span class='font-weight-bold'>سبب بروز بودن ذخیره سازی اطلاعات <span/> می گردد به طوریکه نیاز نیست مدیران برای تصمیم گیری منتظر برگشت مامور به سازمان و دریافت اطلاعات برداشت شده توسط او باشند و در لحظه به اخرین دیتا های جمع آوری شده دسترسی خواهند داشت ."
-    },
-    "security": {
-      "title": "امنیت داده ها را فراهم می کند",
-      "paragraph-one": "فرم های کاغذی همیشه در معرض آسیب و سرقت هستند. گرافرم داده ها را در فضای ابری جمع آوری و ذخیره می کنند، با استفاده از استاندارد های امنیتی و پشتیبان گیری خودکار، تضمین می کند که داده های شما ایمن و همیشه در دسترس هستند."
-    },
-    "easy": {
-      "title": "گزارش گیری و تحلیل آسان داده ها را فراهم میکند",
-      "paragraph-one": "از آنجائیکه داده های بدون تحلیل ، کاملا بی فایده هستند لذا تمام هدف از جمع آوری داده ها آنالیز و بینش معنادار از آن است. در جمع آوری داده به روش سنتی، داده های جمع آوری شده باید به صورت دستی به یک نرم افزار از سیستم (مانند اکسل) منتقل شوند و سپس تجزیه و تحلیل شوند.",
-      "paragraph-two": "کل این فرآیند زمان بر، پرهزینه و مستعد خطاهای انسانی است.",
-      "paragraph-title": "گرافرم به واسطه صحت داده، ارائه گزارشات یکپارچه و نمایش نمودارهای اطلاعاتی برای مدیران، امکان تحلیل آسان و اثربخش داده ها را فراهم میکند."
-    },
-    "swiperapp": {
-      "title": "انعطاف پذیر با امکاناتی بی نذیر",
-      "btn": {
-        "btn-one": "مدیریت کارهای گرافرم",
-        "btn-two": "گفتگوی آنلاین وتصویری",
-        "btn-three": "تحلیلگر گرافرم",
-        "btn-four": "قابلیتهای دیگر"
-      },
-      "li": {
-        "li-one": "امکان ثبت زمان های کاری",
-        "li-two": "تعیین سطوح دسترسی",
-        "li-three": "جستجو",
-        "li-four": "قابلیت شکست کار"
-      }
-    },
-    "people-say": {
-      "title": "آنچه دیگران میگوینــــد...",
-      "swiper-one": {
-        "title": "شرکت دانش بنیان مدیانا",
-        "discretion": "گرافرم برای مدیانا تبدیل به یک زیرساخت کلیدی شده است که از طریق آن تمامی همکاران در تمامی تیم‌ها، درخواست‌ها و پروژه‌های خودشون رو ثبت و یا پیگیری می‌کنند. ویژگی مهم گرافرم ؛ طراحی ساده و جذاب و روش استفاده بسیار آسان آن می باشد که حضور تیم های غیر تخصصی بدون مشکل و دغدغه در پروژه های مختلف را فراهم می کند و سبب ایجاد یکپارچگی در کل سازمان می شود.",
-        "name": "امیر مسعود امیری",
-        "job-title": "مسئول امور اداری"
-      },
-      "swiper-two": {
-        "title": " تجارت بین الملل دانا سپند",
-        "discretion": "ما در بخش بازاریابی شرکت تجاریمان از گرافرم استفاده بسیار زیادی داریم. و همینطور در بخشهای دیگری مثل توسعه کسب و کار، فروش و طراحی. گرافرم ابزاری فوق‌العاده برای پیشبرد فعالیت‌هاییست که به صورت سازمان یافته بایستی انجام شود. شما می توانید وظایف خود را در چندین ستون لیست کنید و حتی می توانید وظایف را به افراد خاص اختصاص دهید تا روی آن کار کار کنند. شرکت ما در حال حاضر بسیار موفق تر از قبل است چون کارها درست زمانی که باید انجام شوند، انجام می‌شوند.",
-        "name": " سعید محبوب",
-        "job-title": " مدیر تحقیقات و توسعه بازار خارج از کشور"
-      },
-      "swiper-three": {
-        "title": "گروه مالی سپهر صادرات",
-        "discretion": "گرافرم باعث شد تا بفهمیم واقعا زمان مفیدی که باید برای یک کار صرف بشود چقدر است و یا به عبارتی کارسنجی انجام شد و باعث شد نظارت بهتر و عادلانه تری داشته باشیم با استفاده از گرافرم توانستیم قدردانی بهتر و بیشتری از افرادی که زحمت بیشتری کشیده‌اند داشته باشیم همچنین انگیزه بیشتر و بهتر کار کردن رو در بقیه افزایش داد.",
-        "name": "مائده آزادی سرور",
-        "job-title": "کارشناس پورتفوی بورسی"
-      }
-    },
-    "swiper-news": {
-      "title": "در جریان جدیدترین خبرها باشید",
-      "slider-one": {
-        "title": "نرم‌افزار مدیریت پروژه چگونه به تیم کمک می‌کند؟!",
-        "link": "خواندن مطلب"
-      },
-      "slider-two": {
-        "title": "نقشه راه کسب‌وکار چیست و چگونه ترسیم می‌شود؟!",
-        "link": "خواندن مطلب"
-      },
-      "slider-three": {
-        "title": "از اهمیت خدمات مشتری در توسعه کسب‌وکار غافل نشوید!",
-        "link": "خواندن مطلب"
-      }
-    },
-    "customers": {
-      "title": "مشتریان ما",
-      "card-title": " به بیش از ۴۰٫۰۰۰ سازمان و ۲۰۰٫۰۰۰ کاربر گرافرم بپیوندید",
-      "card-btn": "رایگان شروع کنید"
-    },
-    "footer": {
-      "list-one": {
-        "title": "بیشتر بدانید",
-        "li-one": "سوالات متداول",
-        "li-two": "شرایط و قوانین استفاده",
-        "li-three": "حریم خصوصی"
-      },
-      "list-two": {
-        "title": " همراه ما باشید",
-        "li-one": "وبلاگ گرافرم",
-        "li-two": "تماس با ما"
-      },
-      "list-three": {
-        "title": " لینک های مفید",
-        "li-one": "قالب ها ",
-        "li-two": "قیمت ها ",
-        "li-three": "موارد استفاده "
-      },
-      "list-four": {
-        "title": "عضویت در خبرنامه",
-        "btn": "عضویت"
-      },
-      "copy&right": "تمامی حقوق از جمله لوگو، تصاویر و محتوا برای گرافرم محفوظ است © ۱۴۰۱"
+    "swiper-two": {
+      "title": "Mechanized research data collection",
+      "discretion": "Reducing the damage caused by the wrong entry of information data, incomplete forms and ineffective information.",
+      "btn": "Create a free account"
     }
+  },
+  "Advantage": {
+    "title-part-one": "In spatial data collection operations",
+    "title-part-two": "Replace paper forms with your mobile phone.",
+    "title-part-three": "Eliminate errors and damages caused by paper data collection."
+  },
+  "what": {
+    "main-title": "What is graphorm?",
+    "title": "<b>with <span class='text-danger'>GraphForm</span><span> Automate and simplify data collection and management  .</span></b>",
+    "paragraph-one": "<b>This completely Iranian product <span class='text-info'>has been designed to optimize data collection operations in a specific geographical environment and perform effective analysis of the collected data.</span></b>",
+    "paragraph-two": "<span>With the ability to apply the necessary controls (controlling the positions and ranges of information collection, time control and user control, and control of the checklist or questionnaire form),<b class='text-black'> <span class=\"text-danger\">Grapharm</span> assures you of the security and accuracy of the data.</b> </span>",
+    "paragraph-three": "<span class='text-black'>Through this product, you will be able to create forms for visiting, inspecting and collecting location information, defining roles and specifying the tasks of people, and after assigning tasks to people <span class='text-danger'>through the mobile software, <span/> <span class='text-black'> information will be recorded and collected.<span/> <span/>"
+  },  
+  "time": {
+    "image-title": "<span> How does graph form help to <span class=\"stork\">reduce the costs</span>of your business?</span>",
+    "title": "Saving time (saving time for managers and field teams)",
+    "paragraph-one": "<b>Less time is spent on data collection.</b>",
+    
+    "paragraph-two": "<span><b>By eliminating paper in the data collection operation, it saves the time </b> of the agent and the headquarters teams because the creation and printing of paper forms is a very time-consuming process, and if corrections are needed in the forms, the entire creation and printing process must be repeated.</span>",
+    "paragraph-three": "<b>By using default data and selected fields, it saves the time of collecting information.</b>    ",
+    "paragraph-four": "<b>Less time is spent on planning operations, analyzing data</b>",
+    "paragraph-five": "<b>Saving managers' time by mechanizing operation planning, data validation, and intelligent control of agents</b>",
+    "paragraph-six": "<b>By using integrated reports and information dashboards, the performance status of the system is clear for managers at a glance.</b>"
+  },
+  "rework": {
+    "title": "It reduces rework and eliminates human errors",
+    "paragraph-one": "<b>Grapherm guarantees data quality through information validation and prevents managers from having to redo work in data analysis.</b>",
+    "paragraph-two": "Since paper forms require human work, each of the actions related to printing and completing information forms, collecting and analyzing them are vulnerable to human errors.",
+    "paragraph-three": "<b>Mechanizing the data collection process through graphing eliminates human errors and makes data and analysis more accurate.</b>"
+  },
+  "affordable": {
+    "title": "Affordable",
+    "paragraph-one": "<b><span class='text-danger'>Graphform </span>reduces the direct and hidden costs of using paper forms,</b>such as: the cost of paper, printing, transportation and the cost of manpower for the separate teams that have to analyze and interpret the data. Enter in the system.",
+    "paragraph-two": "<span class=text-black font-weight-ligh>in Graphform </span> <span class='text-info'> without the need for training or programming knowledge</span> <span class=text-black> Create information forms and apply the necessary controls on it  , and then download information through your mobile phone.</span>",
+    "paragraph-three": "<b><span class='text-danger'>graphem </span> Due to its multi-platform nature,  works on all mobile operating systems (IOS/Android) and does not impose any additional costs on the agent.</b>"
+  },
+
+  "datarepeat": {
+    "title": "It prevents duplication and falsification of data",
+    "paragraph-one": "Since there is no real method for data validation in collecting information manually and through paper forms, therefore, the collected data are very prone to manipulation and falsification.",
+    "paragraph-two": "<span class='text-danger'>graphem</span> <span class='text-black font-weight-bold '> Using smart methods and applied controls,  validates the collected information from all points of view</span>"
+  },
+  "confusion": {
+    "title": "It reduces confusion and clarifies tasks",
+    "paragraph-one": "<span>With basic and mechanized planning, it reduces the confusion of inspectors and field researchers in such a way that with the</span> <span class='text-danger'> Graphform  <span/> <span class='text-black'>form, your researcher or inspector is fully aware of the time and place of doing the work and the description of his task, the due date and even the priority of the task. He knows himself well.</span>"
+  },
+  "documentation": {
+    "title": "Collects complete documentation and multimedia data",
+    "paragraph-one": "<span class='text-black font-weight-light'>Paper-based forms are only able to collect text data. While </span> <span class='text-danger'>Graphform  <span/> <span class='text-black font-weight-bold'>has the ability to collect multimedia data, such as photos, audio, video, etc.<span/>",
+    "paragraph-two": "<span class='font-weight-light '>This data is easily accessible and viewable whenever needed, allowing customers to build a broader and more robust database and gain deeper insight into the information captured.</span>"
+  },
+  "immediate": {
+    "title": "It ensures immediate data availability",
+    "paragraph-one": "Finding specific data from the information collected in paper forms can be extremely time-consuming and tedious. Although paper forms are usually categorized and labeled, searching through them is time-consuming and difficult if you need data immediately.",
+    "paragraph-two": "In addition to the ease of finding data, instant sending of information in graph form makes information storage up-to-date, so that managers do not need to wait for the agent to return to the organization and receive the information taken by him to make a decision, and at the moment to the latest data collection. will have access."
+  },
+  "security": {
+    "title": "Provides data security",
+    "paragraph-one": "Paper forms are always subject to damage and theft. Grapherm collects and stores data in the cloud, using security standards and automatic backups, ensuring that your data is safe and always available."
+  },
+  "easy": {
+    "title": "Provides easy data reporting and analysis",
+    "paragraph-one": "Since data without analysis is completely useless, therefore, the whole purpose of data collection is to analyze and gain meaningful insight from it. In traditional data collection, the collected data must be manually transferred to a system software (such as Excel) and then analyzed.",
+    "paragraph-two": "The entire process is time-consuming, costly, and prone to human error.",
+    "paragraph-title": "Due to the accuracy of the data, the presentation of integrated reports and the display of information charts for managers, Grapharm provides the possibility of easy and effective data analysis."
+  },
+  "swiperapp": {
+    "title": "Flexible with unique features",
+    "btn": {
+      "btn-one": "Graphform task management",
+      "btn-two": "Online and video chat ",
+      "btn-three": "Graphorm Analyzer ",
+      "btn-four": "Other features"
+    },
+    "li": {
+      "li-one": "Ability to record working hours",
+      "li-two": "Set access levels",
+      "li-three": "Search",
+      "li-four": "Ability to fail"
+    }
+  },
+  "people-say": {
+    "title": "What others are saying...",
+    "swiper-one": {
+      "title": "Madiana Knowledge Foundation Company",
+      "discretion": "Grapherm has become a key infrastructure for Mediana through which all colleagues in all teams register or track their requests and projects. The important feature of the graph form; Its simple and attractive design and very easy to use method provide the presence of non-specialized teams without problems and worries in various projects and cause integration in the whole organization.",
+      "name": "Amir masood amiri",
+      "job-title": "Responsible for administrative affairs"
+    },
+    "swiper-two": {
+      "title": "Dana Sepand International Trade",
+      "discretion": "We use graphem a lot in the marketing department of our business company. And also in other sectors such as business development, sales and design. Graph form is a wonderful tool for promoting activities that must be done in an organized manner. You can list your tasks in multiple columns and you can even assign tasks to specific people to work on. Our company is now more successful than ever because things get done right when they need to be done.",
+      "name": "Saeed Mehboob",
+      "job-title": "Overseas market research and development manager"
+    },
+    "swiper-three": {
+      "title": "Sepehr Saderat Financial Group",
+      "discretion": "Grapherm made us understand how much useful time should be spent on a task, or in other words, work was measured and it made us have better and fairer supervision. By using Grapherm, we were able to appreciate people who worked harder. It also increased the motivation to work more and better in others.",
+      "name": "Maede azadi sarvar",
+      "job-title": "Stock market portfolio expert"
+    }
+  },
+  "swiper-news": {
+    "title": "Stay up to date with the latest news",
+    "slider-one": {
+      "title": "How does project management software help the team?!",
+      "link": "Reading the article"
+    },
+    "slider-two": {
+      "title": "What is a business roadmap and how is it drawn?!",
+      "link": "Reading the article"
+    },
+    "slider-three": {
+      "title": "Do not neglect the importance of customer service in business development!",
+      "link": "Reading the article"
+    }
+  },
+  "customers": {
+    "title": "our customers",
+    "card-title": "Join over 40,000 organizations and 200,000 Graphform users",
+    "card-btn": "Get started for free"
+  },
+  "footer": {
+    "list-one": {
+      "title": "Know more",
+      "li-one": "Frequently Asked Questions",
+      "li-two": "Terms and conditions of use",
+      "li-three": "Privacy"
+    },
+    "list-two": {
+      "title": " be with us",
+      "li-one": "weblog graphorm",
+      "li-two": "contact us"
+    },
+    "list-three": {
+      "title": " Useful links",
+      "li-one": "Templates",
+      "li-two": "Prices",
+      "li-three": "Uses"
+    },
+    "list-four": {
+      "title": "subscribe to newsletter",
+      "btn": "subscribe"
+    },
+    "copy&right": "All rights including logo, images and content are reserved for Graphform © 1401"
   }
-  
+}

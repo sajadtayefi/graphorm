@@ -7,7 +7,7 @@ export const ImmediateItems = [
     ,
     {
         id: "2",
-        text: 'immediate.paragraph-one',
+        text: 'immediate.paragraph-two',
         Cname: ""
     }
 ]
