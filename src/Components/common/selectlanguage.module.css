@@ -1,0 +1,37 @@
+.brandlng {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  border: none !important;
+  background-color: transparent;
+  outline: none !important;
+}
+
+[dir="rtl"] gdfg {
+
+}
+
+[dir="ltr"] gdfg {
+    
+}
+
+.brandlng:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 30px;
+  display: block;
+  content: "";
+  border-bottom: solid 1px #191970;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.brandlng:hover:after {
+  color: #191970 !important;
+  transform: scaleX(1);
+}

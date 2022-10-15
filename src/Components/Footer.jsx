@@ -59,6 +59,7 @@ function Footer() {
                 </div>
             </div>
             <h3 className={styles.copyright}>
+                
                 {t('footer.copy&right')}
             </h3>
         </div>

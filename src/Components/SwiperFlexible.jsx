@@ -9,20 +9,23 @@ import 'swiper/css/scrollbar';
 import MainSlider from "./common/MainSlider";
 import SliderComponent from "./common/SliderComponent";
 import { SliderItems } from "../constant/SwiperFlexibleItems"
+import { useState } from "react";
 
 
 
 
 function SwiperApp() {
+    const [state, setState] = useState(null)
     const { t } = useTranslation();
     return (
         <div className={styles.container}>
             <h3 className={styles.title}>{t('swiperapp.title')}</h3>
             <div className={styles.btn_container}>
-                {SwiperBtnItems.map((i, index) => {
+                {SwiperBtnItems.map((i,index) => {
                     return (
                         <>
                             <Button
+                                state={state}
                                 key={i?.id}
                                 Cname={styles?.btn}
                                 ptag={styles?.ptag}
@@ -38,8 +41,9 @@ function SwiperApp() {
             <div>
                 <MainSlider
                     slidesperview={1}
+                    onChangeIndex={index => setState(index)}
                     item={SliderItems}
-                    renderItem={i => (
+                    renderItem={(i, isActive) => (
                         <SliderComponent
                             image={i.image}
                             item={i.item.map((item) => {

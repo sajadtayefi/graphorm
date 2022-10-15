@@ -1,5 +1,5 @@
 import styles from "./mainslider.module.css"
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';
 import { Pagination } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -7,9 +7,12 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import SlidePrev from "./SlidePrev";
 import SlideNext from "./SlideNext";
+import SlideTitle from "./ActiveSlide";
+import { useEffect, useRef, useState } from 'react';
 
 
-function SwiperFlexible({ renderItem, item, slidesperview }) {
+function SwiperFlexible({ renderItem, item, slidesperview, onChangeIndex }) {
+
     return (
         <div className={styles.container}>
             <Swiper
@@ -19,12 +22,17 @@ function SwiperFlexible({ renderItem, item, slidesperview }) {
                 slidesPerView={slidesperview}
                 speed={400}
                 pagination={{ clickable: true }}
-                onSlideChange={() => console.log('slide change')}
+                onSlideChange={({ realIndex }) => onChangeIndex instanceof Function ? onChangeIndex(realIndex) : null}
+                onSwiper={({ realIndex }) => onChangeIndex instanceof Function ? onChangeIndex(realIndex) : null}
             >
                 {item.map((i, index) => {
                     return (
                         <SwiperSlide key={index} className={styles.swiperslide}>
-                            {renderItem(i)}
+                            {({ isActive }) => (
+                                <div>
+                                    {renderItem(i, isActive)}
+                                </div>
+                            )}
                         </SwiperSlide>
                     )
                 })}

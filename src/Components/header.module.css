@@ -11,7 +11,6 @@
   text-align: center;
   position: relative;
   margin: 0px 10px;
-
 }
 .Cname:hover {
   color: #191970 !important;
@@ -33,35 +32,15 @@
   color: #191970 !important;
   transform: scaleX(1);
 }
-.brandlng {
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  position: relative;
-}
+
 .span {
   height: 40px !important;
   margin: 0px 10px;
   font-size: 16px;
 }
-.brandlng:hover {
-  color: #191970 !important;
+[dir=rtl].span{
+  height: 150px!important;
 }
-.brandlng:after {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin-top: 10px;
-  display: block;
-  content: "";
-  border-bottom: solid 1px #191970;
-  transform: scaleX(0);
-  transition: transform 200ms ease-in-out;
-}
-.brandlng:hover:after {
-  color: #191970 !important;
-  transform: scaleX(1);
-}
+
+
+
