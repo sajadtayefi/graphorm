@@ -35,6 +35,9 @@
   height: 50px;
   margin-left: 10px;
 }
+[dir=ltr] .avatar{
+  margin-right: 20px;
+}
 .profile {
   margin-top: auto;
   display: flex;
@@ -47,4 +50,5 @@
 .jobTitle {
   font-size: 14px;
   margin: 0;
+  font-weight: 600;
 }

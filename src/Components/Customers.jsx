@@ -26,8 +26,8 @@ function Customers() {
                     {t('customers.card-title')}
                 </h3>
                 <Button
-                ptag={styles.ptag}
-                    Cname={styles.btn}
+                    ptag={styles.ptag}
+                    ActiveCname={styles.btn}
                     textCname={styles.textCname}
                     text={t('customers.card-btn')}
                 />

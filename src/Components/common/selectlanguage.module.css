@@ -9,14 +9,6 @@
   outline: none !important;
 }
 
-[dir="rtl"] gdfg {
-
-}
-
-[dir="ltr"] gdfg {
-    
-}
-
 .brandlng:after {
   position: absolute;
   top: 0;
@@ -29,6 +21,9 @@
   border-bottom: solid 1px #191970;
   transform: scaleX(0);
   transition: transform 250ms ease-in-out;
+}
+.brandlng:hover{
+  color: #191970;
 }
 
 .brandlng:hover:after {

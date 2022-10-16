@@ -1,5 +1,5 @@
 .container {
-  margin: 0px 5px;
+  margin: 0px 0px;
   z-index: 2;
 }
 .btn {
@@ -11,6 +11,7 @@
   border-radius: 50%;
   background: #f0f0f0;
 }
+
 .btn:hover {
   transition: ease-in-out;
   transition-duration: 300ms;
@@ -19,3 +20,4 @@
 .icon {
   color: #acb1c0;
 }
+

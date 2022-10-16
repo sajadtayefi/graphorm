@@ -31,6 +31,12 @@ button#dropdown-basic {
   width: 120px;
   background-color: #ffffff;
 }
+[dir=ltr] .swiper-horizontal > .swiper-pagination-bullets,
+[dir=ltr] .swiper-pagination-bullets.swiper-pagination-horizontal,
+[dir=ltr] .swiper-pagination-custom,
+[dir=ltr] .swiper-pagination-fraction {
+  left: 100px;
+}
 
 :root {
   --swiper-theme-color: #adb1bf;

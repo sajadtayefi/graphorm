@@ -28,7 +28,7 @@ function Footer() {
 
                             {i.items.map((item, index) => {
                                 return (
-                                    <li className="my-2" key={index}>
+                                    <li className={styles.li} key={index}>
                                         {t(item)}
                                     </li>
                                 )
@@ -46,7 +46,7 @@ function Footer() {
                             <Button
                                 text={t('footer.list-four.btn')}
                                 ptag={styles.ptag}
-                                Cname={styles.btn}
+                                ActiveCname={styles.btn}
                             />
                         </div>
                         <div className="">

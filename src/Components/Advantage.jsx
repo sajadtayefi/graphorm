@@ -7,7 +7,7 @@ function Advantage() {
 
     return (
         <div className={styles.container}>
-            <img className={`${styles.image} w-100 `} src={benefits} alt="" />
+            <img className={`${styles.image}  w-100 `} src={benefits} alt="" />
             <div className={`${styles.paragraph}`}>
                 <p className={styles.p}>{t('Advantage.title-part-one')}</p>
                 <h3 className={styles.h3_One}>{t('Advantage.title-part-two')}</h3>

@@ -23,6 +23,18 @@
   height: 80px;
   align-items: center;
   padding: 10px;
+}
+.activebtn {
+  color: #191970;
+  background-color: #fff;
+  border: none;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 80px;
+  align-items: center;
+  padding: 10px;
   border-top: 6px solid #191970;
 }
 
@@ -38,6 +50,9 @@
 .textCname {
   font-size: 20px;
   margin-right: 60px;
+}
+[dir=ltr] .textCname{
+  margin-left: 60px;
 }
 .swiperslide {
   width: 100%;

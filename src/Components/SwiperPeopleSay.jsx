@@ -29,7 +29,7 @@ function SwiperPeopleSay() {
                 <MainSlider
                     slidesperview={2}
                     item={peopleItems}
-                    renderItem={(i,isActive) => (
+                    renderItem={(i) => (
                         <Cardslider
 
                             logo={i.logo}

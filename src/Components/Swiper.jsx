@@ -24,7 +24,7 @@ function Swiper() {
                             <h3 className={styles.h3}>{t(i.h3)}</h3>
                             <p className={styles.p}>{t(i.p)}</p>
                             <Button
-                                Cname={styles.btn}
+                                ActiveCname={styles.btn}
                                 text={t(i.btn)}
                             />
                         </div>

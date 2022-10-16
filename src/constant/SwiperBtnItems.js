@@ -2,25 +2,25 @@ import { BsTextareaResize } from 'react-icons/bs';
 
 export const SwiperBtnItems = [
     {
-        id: 1,
+        id: 0,
         cname: "",
         icon: <BsTextareaResize size={36} />,
         title: 'swiperapp.btn.btn-one'
     },
     {
-        id: 2,
+        id: 1,
         cname: "",
         icon: <BsTextareaResize size={36} />,
         title: 'swiperapp.btn.btn-two'
     },
     {
-        id: 3,
+        id: 2,
         cname: "",
         icon: <BsTextareaResize size={36} />,
         title: 'swiperapp.btn.btn-three'
     },
     {
-        id: 4,
+        id: 3,
         cname: "",
         icon: <BsTextareaResize size={36} />,
         title: 'swiperapp.btn.btn-four'

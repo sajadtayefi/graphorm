@@ -5,24 +5,18 @@ import logo from '../Asset/icons/logo.png'
 import { Items } from '../constant/NavbarItems';
 import styles from './header.module.css'
 import { useTranslation } from "react-i18next";
-import { BsGlobe2 } from 'react-icons/bs';
-import { useState } from 'react';
 import Selectlanguage from './common/Selectlanguage';
 
 
 function Header() {
   const { t } = useTranslation();
 
-
-
-
   return (
     <Navbar className={`${styles.navbar} w-100`} bg="light" expand="lg">
       <Container className={styles.container}>
-        <Navbar.Brand className='d-flex flex-row-reverse justify-content-center align-items-center' href="#">
-
+        <Navbar.Brand className=' d-flex flex-row-reverse justify-content-center align-items-center' href="#">
           <span className=''>{t('navbar.app-name')}</span>
-          <img className=' m-2 w-25 ' src={logo} alt="logo" />
+          <img className={styles.image} src={logo} alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -41,7 +35,7 @@ function Header() {
             })}
           </Nav>
         </Navbar.Collapse>
-        <Selectlanguage  />
+        <Selectlanguage />
 
 
       </Container>

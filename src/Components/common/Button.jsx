@@ -1,16 +1,12 @@
-import SlideTitle from "./ActiveSlide";
 
-function Button(props) {
+function Button({ itemNumber, active, ActiveCname, Icon, text, textCname, IconCname, ptag, Cname, onClick }) {
     return (
-        <>
-            <button  key={props.key}  className={props.Cname} onClick={props.onclick}>
-                <p className={props.ptag} >
-                    {props.state ? "this is not active": "this is  active"}
-                    <span className={props.IconCname}> {props.Icon}</span>
-                    <span className={props.textCname}>{props.text}</span>
-                </p>
-            </button>
-        </>
+        <button key={itemNumber} className={active === itemNumber ? ActiveCname : Cname} onClick={onClick    }>
+            <p className={ptag} >
+                <span className={IconCname}> {Icon}</span>
+                <span className={textCname}>{text}</span>
+            </p>
+        </button>
     );
 }
 

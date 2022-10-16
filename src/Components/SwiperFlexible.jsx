@@ -15,24 +15,27 @@ import { useState } from "react";
 
 
 function SwiperApp() {
-    const [state, setState] = useState(null)
+    const [swiperInstance, setSwiperInstance] = useState(null);
+    const [active, setActive] = useState(null)
     const { t } = useTranslation();
     return (
         <div className={styles.container}>
             <h3 className={styles.title}>{t('swiperapp.title')}</h3>
             <div className={styles.btn_container}>
-                {SwiperBtnItems.map((i,index) => {
+                {SwiperBtnItems.map((i, index) => {
                     return (
                         <>
                             <Button
-                                state={state}
-                                key={i?.id}
+                                active={active}
+                                itemNumber={index}
                                 Cname={styles?.btn}
+                                ActiveCname={styles.activebtn}
                                 ptag={styles?.ptag}
                                 text={t(i?.title)}
                                 Icon={i?.icon}
                                 IconCname={styles.icon_cname}
                                 textCname={styles.textCname}
+                                onClick={() => swiperInstance.slideTo(index + 1)}
                             />
                         </>
                     )
@@ -41,9 +44,10 @@ function SwiperApp() {
             <div>
                 <MainSlider
                     slidesperview={1}
-                    onChangeIndex={index => setState(index)}
+                    setSwiperInstance={setSwiperInstance}
+                    onChangeIndex={index => setActive(index)}
                     item={SliderItems}
-                    renderItem={(i, isActive) => (
+                    renderItem={(i) => (
                         <SliderComponent
                             image={i.image}
                             item={i.item.map((item) => {

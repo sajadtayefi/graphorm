@@ -13,6 +13,13 @@
   bottom: 75px;
   left: 0;
 }
+[dir=ltr] .arrows{
+  flex-direction: row-reverse;
+  left: none;
+  right: 0px;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
 .swiperslide {
   width: 100%;
   padding: 0px 0px 100px 0px;

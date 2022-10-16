@@ -48,7 +48,14 @@
   color: white;
   background-color: #191970;
 }
-.input_co{
+[dir="ltr"] .btn {
+  font-size: 16px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.input_co {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,4 +66,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.li {
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.li:hover {
+  text-decoration: underline;
 }

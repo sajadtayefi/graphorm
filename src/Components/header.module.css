@@ -3,6 +3,11 @@
   position: fixed !important;
   top: 0px;
   z-index: 20;
+  height: 80px;
+}
+.image{
+  width: 40px;
+  margin: 0px 10px;
 }
 .Cname {
   justify-content: center;
@@ -38,8 +43,8 @@
   margin: 0px 10px;
   font-size: 16px;
 }
-[dir=rtl].span{
-  height: 150px!important;
+[dir=ltr] .span{
+  font-size: 14px;
 }
 
 
