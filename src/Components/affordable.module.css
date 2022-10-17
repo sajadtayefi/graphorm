@@ -20,3 +20,18 @@
   font-size: 17px;
   padding: 5px 0px;
 }
+@media only screen and (max-width: 992px) {
+  .container {
+    padding: 20px 0px 0px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+}
+
+@media only screen and (max-width: 792px) {
+ 
+}
+@media only screen and (max-width: 477px) {
+ 
+}

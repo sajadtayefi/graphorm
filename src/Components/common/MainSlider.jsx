@@ -11,7 +11,7 @@ import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
 
 
-function SwiperFlexible({ key, renderItem, item, slidesperview, onChangeIndex, setSwiperInstance }) {
+function SwiperFlexible({ renderItem, item, slidesperview, onChangeIndex, setSwiperInstance }) {
     const { t } = useTranslation();
     const [showSwiper, setShowSwiper] = useState(true);
     const [mounted, setMounted] = useState(false);
@@ -19,7 +19,7 @@ function SwiperFlexible({ key, renderItem, item, slidesperview, onChangeIndex, s
 
     useEffect(() => {
         if(mounted) setShowSwiper(false);
-    }, [dir]);
+    },[dir]);
 
     useEffect(() => {
         if(showSwiper === false) setShowSwiper(true);

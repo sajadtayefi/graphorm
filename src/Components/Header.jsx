@@ -12,16 +12,16 @@ function Header() {
   const { t } = useTranslation();
 
   return (
-    <Navbar className={`${styles.navbar} w-100`} bg="light" expand="lg">
+    <Navbar className={`${styles.navbar} `} bg="light" expand="lg">
       <Container className={styles.container}>
-        <Navbar.Brand className=' d-flex flex-row-reverse justify-content-center align-items-center' href="#">
+        <Navbar.Brand className=' d-flex flex-row-reverse  justify-content-center align-items-center' href="#">
           <span className=''>{t('navbar.app-name')}</span>
           <img className={styles.image} src={logo} alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
+        <Navbar.Collapse className={styles.collapse} id="navbarScroll">
           <Nav
-            className="mx-auto my-2 my-lg-3"
+            className="  mx-auto my-2 my-lg-3"
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
@@ -34,10 +34,8 @@ function Header() {
               )
             })}
           </Nav>
+            <Selectlanguage />
         </Navbar.Collapse>
-        <Selectlanguage />
-
-
       </Container>
     </Navbar>
   );

@@ -19,7 +19,7 @@ import DataRepeat from "../Components/DataRepeat";
 
 function Home() {
     return (
-        <div className="container">
+        <div className="container-lg ">
             <Swiper />
             <Advantage />
             <What />

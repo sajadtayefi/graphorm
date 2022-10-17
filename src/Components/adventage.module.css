@@ -35,3 +35,50 @@
 .h3_Two {
   color: #4caf50;
 }
+@media only screen and (max-width: 992px) {
+  .image {
+    padding: 60px 0px 20px 0px;
+  }
+  .paragraph {
+    width: 500px;
+  }
+  .p {
+    padding: 10px 0px 0px 0px;
+    font-size: 14px;
+  }
+  .h3_One,
+  .h3_Two {
+    font-size: 16px;
+    padding: 10px 0px;
+  }
+}
+
+@media only screen and (max-width: 792px) {
+  .image {
+    padding: 20px 0px 20px 0px;
+  }
+  .paragraph {
+    width: 400px;
+  }
+  .p {
+    padding: 10px 0px 0px 0px;
+    font-size: 14px;
+  }
+  .h3_One,
+  .h3_Two {
+    font-size: 14px;
+    padding: 5px 0px;
+  }
+}
+@media only screen and (max-width: 477px) {
+  .paragraph {
+    width: 300px;
+  }
+  .p {
+    font-size: 8px;
+  }
+  .h3_One,
+  .h3_Two {
+    font-size: 10px;
+  }
+}

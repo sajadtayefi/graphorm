@@ -13,6 +13,14 @@ body {
 button#dropdown-basic {
     border: none;
 }
+div#root {
+  overflow: hidden;
+}
+.mx-auto.my-2.my-lg-3.navbar-nav.navbar-nav-scroll{
+  display: flex;
+  align-items: flex-start;
+  
+}
 
 [class^="swiper_container"] {
   outline: none !important;

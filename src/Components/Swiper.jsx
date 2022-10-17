@@ -19,7 +19,7 @@ function Swiper() {
         <Slider {...settings}>
             {SwiperItem.map((i) => {
                 return (
-                    <div key={i.id} className={styles.container} >
+                    <div key={i.id} className={`${styles.container} container-fluid `} >
                         <div className='d-flex flex-column  justify-content-center align-items-center'>
                             <h3 className={styles.h3}>{t(i.h3)}</h3>
                             <p className={styles.p}>{t(i.p)}</p>
