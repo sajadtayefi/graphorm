@@ -1,5 +1,5 @@
 import styles from "./slidercomponent.module.css"
-function SliderComponent({ item, image }) {
+function SliderComponent({ key,item, image }) {
   return (
     <div className={styles.container}>
       <div className={styles.li_container}>

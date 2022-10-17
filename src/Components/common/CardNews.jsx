@@ -9,7 +9,7 @@ function CardNews({ title, image, link }) {
             <h3 className={styles.title}>{title}</h3>
             <img className={styles.image} src={image} alt="logo" />
             <a className={styles.link} href="##">{link}
-                {t('dir') == "rtl" ? <AiOutlineArrowLeft className={styles.icon} /> : <AiOutlineArrowRight className={styles.icon} />}
+                {t('dir') === "rtl" ? <AiOutlineArrowLeft className={styles.icon} /> : <AiOutlineArrowRight className={styles.icon} />}
 
             </a>
         </div>

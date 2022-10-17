@@ -9,12 +9,12 @@ import 'swiper/css/scrollbar';
 import MainSlider from "./common/MainSlider";
 import SliderComponent from "./common/SliderComponent";
 import { SliderItems } from "../constant/SwiperFlexibleItems"
-import { useState } from "react";
+import React, { useState } from "react";
 
 
 
 
-function SwiperApp() {
+function SwiperFlexible() {
     const [swiperInstance, setSwiperInstance] = useState(null);
     const [active, setActive] = useState(null)
     const { t } = useTranslation();
@@ -24,7 +24,7 @@ function SwiperApp() {
             <div className={styles.btn_container}>
                 {SwiperBtnItems.map((i, index) => {
                     return (
-                        <>
+                        <React.Fragment key={index}>
                             <Button
                                 active={active}
                                 itemNumber={index}
@@ -37,7 +37,7 @@ function SwiperApp() {
                                 textCname={styles.textCname}
                                 onClick={() => swiperInstance.slideTo(index + 1)}
                             />
-                        </>
+                        </React.Fragment>
                     )
                 })}
             </div>
@@ -50,9 +50,9 @@ function SwiperApp() {
                     renderItem={(i) => (
                         <SliderComponent
                             image={i.image}
-                            item={i.item.map((item) => {
+                            item={i.item.map((item, index) => {
                                 return (
-                                    <li>
+                                    <li key={index} >
                                         {t(item)}
                                     </li>
                                 )
@@ -65,4 +65,4 @@ function SwiperApp() {
     );
 }
 
-export default SwiperApp;
+export default SwiperFlexible;

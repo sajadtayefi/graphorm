@@ -8,13 +8,11 @@ import Cardslider from "./common/CardSlider"
 import MainSlider from "./common/MainSlider";
 import { peopleItems } from "../constant/SwiperPeopleItems";
 import { FaQuoteRight } from "react-icons/fa"
-import { useState } from "react";
 
 
 
 
 function SwiperPeopleSay() {
-    const [state ,setState]=useState(null)
     const { t } = useTranslation();
     return (
         <div className={styles.container}>

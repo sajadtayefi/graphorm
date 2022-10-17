@@ -11,7 +11,7 @@ function App() {
 
   useEffect(() => {
     document.querySelector('html').setAttribute('dir', dir);
-  }, dir);
+  }, [dir]);
 
   return (
     <div className={styles.app}>

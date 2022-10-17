@@ -1,11 +1,10 @@
-import { useState } from "react";
 import { Dropdown } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import { BsGlobe2 } from "react-icons/bs";
 import styles from "./selectlanguage.module.css"
 
 function Selectlanguage() {
-    const { t, i18n } = useTranslation();
+    const { i18n } = useTranslation();
 
     return (
         <Dropdown className={styles.brandlng}>

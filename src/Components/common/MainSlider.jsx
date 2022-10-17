@@ -8,7 +8,7 @@ import 'swiper/css/scrollbar';
 import SlidePrev from "./SlidePrev";
 import SlideNext from "./SlideNext";
 import { useTranslation } from "react-i18next";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 
 
 function SwiperFlexible({ key, renderItem, item, slidesperview, onChangeIndex, setSwiperInstance }) {
@@ -27,7 +27,7 @@ function SwiperFlexible({ key, renderItem, item, slidesperview, onChangeIndex, s
 
     useEffect(() => {
         setMounted(true);
-    }, []);
+    },[]);
     
     return (
         <div className={styles.container}>
