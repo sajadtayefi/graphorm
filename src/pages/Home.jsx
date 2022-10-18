@@ -8,7 +8,7 @@ import Confusion from "../Components/Confusion";
 import Documentation from "../Components/Documentation";
 import Immediate from "../Components/Immediate";
 import SecurityData from "../Components/SecurityData";
-import Easy from "../Components/Easy";
+import Easy from "../Components/EasyReporting";
 import SwiperPeopleSay from "../Components/SwiperPeopleSay";
 import SwiperFlexible from "../Components/SwiperFlexible";
 import SwiperNews from "../Components/SwiperNews";

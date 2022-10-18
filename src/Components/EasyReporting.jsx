@@ -1,8 +1,8 @@
-import styles from "./easy.module.css"
+import styles from "./easyreporting.module.css"
 import easy from "../Asset/picture/easy-data-reporting-and-analysis.jpg"
 import { useTranslation } from "react-i18next";
 
-function Easy() {
+function EasyReporting() {
     const { t } = useTranslation();
     return (
         <div className={styles.container}>
@@ -19,4 +19,4 @@ function Easy() {
     );
 }
 
-export default Easy;
+export default EasyReporting;

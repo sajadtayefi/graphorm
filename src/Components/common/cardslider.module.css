@@ -28,14 +28,13 @@
   display: flex;
   flex-direction: row;
   margin-top: auto;
-
 }
 .avatar {
   border-radius: 50%;
   height: 50px;
   margin-left: 10px;
 }
-[dir=ltr] .avatar{
+[dir="ltr"] .avatar {
   margin-right: 20px;
 }
 .profile {

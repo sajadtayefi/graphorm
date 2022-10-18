@@ -9,6 +9,11 @@ body {
   src: url("../Asset/fonts/IRANSansWeb.ttf");
   src: url("../Asset/fonts/IRANSansWeb.woff");
 }
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: none;
+}
 
 button#dropdown-basic {
     border: none;
