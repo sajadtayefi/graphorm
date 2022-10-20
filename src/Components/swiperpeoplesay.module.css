@@ -1,15 +1,14 @@
-.container{
+.container {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-
 }
 
 .slider {
   flex: 1;
   width: 0px;
 }
-.title{
+.title {
   display: flex;
   font-size: 32px;
   flex-direction: column;
@@ -18,13 +17,50 @@
   width: 180px;
   color: #1e3a58;
 }
-[dir=ltr] .title{
+[dir="ltr"] .title {
   margin-left: 0px;
   margin-right: 20px;
 }
 .title span {
   margin-top: 20px;
-
+}
+@media only screen and (max-width: 1400px) {
 }
 
-
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 792px) {
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .slider {
+    flex: 1;
+    width: 100%;
+  }
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    flex-direction: row;
+    font-weight: 600;
+    margin: 50px 0px 50px 20px;
+    width: 100%;
+    color: #1e3a58;
+  }
+  .title span {
+    margin-top: 0px;
+    margin-right: 10px;
+  }
+  [dir=ltr] .title span {
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+}

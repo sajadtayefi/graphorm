@@ -12,8 +12,8 @@ function Header() {
   const { t } = useTranslation();
 
   return (
-    <Navbar className={`${styles.navbar} `} bg="light" expand="lg">
-      <Container className={styles.container}>
+    <Navbar className={`${styles.navbar}`} bg="light" expand="lg">
+      <div className='container-xl'>
         <Navbar.Brand className=' d-flex flex-row-reverse  justify-content-center align-items-center' href="#">
           <span className=''>{t('navbar.app-name')}</span>
           <img className={styles.image} src={logo} alt="logo" />
@@ -34,9 +34,9 @@ function Header() {
               )
             })}
           </Nav>
-            <Selectlanguage />
+          <Selectlanguage />
         </Navbar.Collapse>
-      </Container>
+      </div>
     </Navbar>
   );
 }

@@ -1,11 +1,25 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
-.title{
-    margin-bottom: 40px;
-    font-size: 32px;
-    font-weight: 800;
+.title {
+  margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: 800;
+}
 
+@media only screen and (max-width: 1400px) {
+
+}
+@media only screen and (max-width: 1200px) {
+    .title{
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 792px) {
+}
+@media only screen and (max-width: 477px) {
 }

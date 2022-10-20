@@ -11,28 +11,29 @@ import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
 
 
-function SwiperFlexible({ renderItem, item, slidesperview, onChangeIndex, setSwiperInstance }) {
+function SwiperFlexible({ breakpoints, renderItem, item, slidesperview, onChangeIndex, setSwiperInstance }) {
     const { t } = useTranslation();
     const [showSwiper, setShowSwiper] = useState(true);
     const [mounted, setMounted] = useState(false);
     const dir = t('dir');
 
     useEffect(() => {
-        if(mounted) setShowSwiper(false);
-    },[dir]);
+        if (mounted) setShowSwiper(false);
+    }, [dir]);
 
     useEffect(() => {
-        if(showSwiper === false) setShowSwiper(true);
+        if (showSwiper === false) setShowSwiper(true);
     }, [showSwiper]);
 
     useEffect(() => {
         setMounted(true);
-    },[]);
-    
+    }, []);
+
     return (
         <div className={styles.container}>
             {showSwiper && (
                 <Swiper
+                breakpoints={breakpoints}
                     loop={true}
                     modules={[Pagination]}
                     spaceBetween={10}
@@ -41,11 +42,11 @@ function SwiperFlexible({ renderItem, item, slidesperview, onChangeIndex, setSwi
                     pagination={{ clickable: true }}
                     onSlideChange={({ realIndex }) => onChangeIndex instanceof Function ? onChangeIndex(realIndex) : null}
                     onSwiper={instance => {
-                            if (onChangeIndex instanceof Function) onChangeIndex(instance.realIndex);
-                            if (setSwiperInstance instanceof Function) setSwiperInstance(instance);
-                        }}
+                        if (onChangeIndex instanceof Function) onChangeIndex(instance.realIndex);
+                        if (setSwiperInstance instanceof Function) setSwiperInstance(instance);
+                    }}
 
-                    >
+                >
                     {item.map((i, index) => {
                         return (
                             <SwiperSlide key={index} className={styles.swiperslide}>

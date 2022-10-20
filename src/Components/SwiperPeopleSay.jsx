@@ -16,7 +16,7 @@ function SwiperPeopleSay() {
     const { t } = useTranslation();
     return (
         <div className={styles.container}>
-            
+
             <h2 className={styles.title}>
                 <FaQuoteRight />
                 <span>
@@ -27,9 +27,42 @@ function SwiperPeopleSay() {
                 <MainSlider
                     slidesperview={2}
                     item={peopleItems}
+                    breakpoints={
+                        {
+                              // when window width is >= 140px
+                              140: {
+                                slidesPerView: 1,
+                                spaceBetween: 10,
+                            },
+                            // when window width is >= 320px
+                            320: {
+                                slidesPerView: 1,
+                                spaceBetween: 10,
+                            }
+                            // when window width is >= 480px
+                            , 480: {
+                                slidesPerView: 1,
+                                spaceBetween: 10,
+                            }
+                            // when window width is >= 640px
+                            , 640: {
+                                slidesPerView: 1
+                            }
+                            // when window width is >= 768px
+                            , 768: {
+                                slidesPerView: 1
+                            }
+                            // when window width is >= 1024px
+                            , 1024: {
+                                slidesPerView: 2,
+                            }
+                            // when window width is >= 1200px
+                            , 1200: {
+
+                            }
+                        }}
                     renderItem={(i) => (
                         <Cardslider
-
                             logo={i.logo}
                             title={t(i.title)}
                             discretion={t(i.paragrph)}

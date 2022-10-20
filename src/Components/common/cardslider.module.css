@@ -4,9 +4,8 @@
   margin-bottom: 50px;
   border-radius: 10px;
   border: 1px solid #e9e9ef;
-  width: 540px;
+  width: 100%;
   padding: 30px;
-  height: 480px;
 }
 
 .logo {
@@ -23,6 +22,7 @@
 .discretion {
   font-weight: 100;
   font-size: 16px;
+  height: 300px;
 }
 .co_profile {
   display: flex;
