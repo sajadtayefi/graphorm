@@ -16,26 +16,28 @@ function Footer() {
     return (
         <div className={styles.container}>
             <div className={styles.footrco}>
-                <div>
-                    <img src={enamad} alt="" />
-                </div>
-                {FooterItems.map((i, index) => {
-                    return (
-                        <div key={index}>
-                            <p className={styles.title}>
-                                {t(i.title)}
-                            </p>
+                <div className={styles.items}>
+                    <div className={styles.enamad} >
+                        <img src={enamad} alt="enamd" />
+                    </div>
+                    {FooterItems.map((i, index) => {
+                        return (
+                            <div key={index}>
+                                <p className={styles.title}>
+                                    {t(i.title)}
+                                </p>
 
-                            {i.items.map((item, index) => {
-                                return (
-                                    <li className={styles.li} key={index}>
-                                        {t(item)}
-                                    </li>
-                                )
-                            })}
-                        </div>
-                    )
-                })}
+                                {i.items.map((item, index) => {
+                                    return (
+                                        <li className={styles.li} key={index}>
+                                            {t(item)}
+                                        </li>
+                                    )
+                                })}
+                            </div>
+                        )
+                    })}
+                </div>
                 <div className={styles.newsletters}>
                     <h3 className={styles.newstitle}>
                         {t('footer.list-four.title')}
@@ -59,7 +61,6 @@ function Footer() {
                 </div>
             </div>
             <h3 className={styles.copyright}>
-                
                 {t('footer.copy&right')}
             </h3>
         </div>
