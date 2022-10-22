@@ -22,7 +22,10 @@
 .discretion {
   font-weight: 100;
   font-size: 16px;
-  height: 300px;
+  height: 250px;
+  overflow: hidden;
+  line-height: 28px;
+
 }
 .co_profile {
   display: flex;

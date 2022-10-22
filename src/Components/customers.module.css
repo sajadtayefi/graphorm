@@ -40,6 +40,7 @@
   width: 95%;
   color: white;
   background-color: #191970;
+  
 }
 .btn {
   color: #191970;
@@ -66,7 +67,6 @@
 }
 
 @media only screen and (max-width: 1400px) {
-
 }
 @media only screen and (max-width: 1200px) {
   .title {
@@ -81,14 +81,16 @@
     font-weight: 700;
     padding: 0px 0px 30px 0px;
   }
- 
+
   .textCname {
     font-size: 16px;
     margin: 0px !important;
   }
- 
 }
 @media only screen and (max-width: 720px) {
+  .div {
+    padding: 20px;
+  }
   .title {
     font-size: 26px;
     font-weight: 700;
@@ -100,12 +102,15 @@
   }
 }
 @media only screen and (max-width: 477px) {
+  .div {
+    padding: 80px 0px;
+  }
   .title {
     font-size: 26px;
     font-weight: 700;
     padding: 0px 0px 30px 0px;
   }
- 
+
   .textCname {
     font-size: 16px;
     margin: 0px !important;
