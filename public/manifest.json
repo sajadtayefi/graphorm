@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Graform",
+  "name": "Graform application",
+  "description": "with GraphForm Automate and simplify data collection and management",
   "icons": [
     {
       "src": "favicon.ico",
