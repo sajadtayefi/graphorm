@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import './css/index.css';
 import './i18n';
+// import serviceWorker from './serviceWorker';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -10,3 +12,4 @@ root.render(
     <App />
   </React.StrictMode>
 );
+// serviceWorker.register();

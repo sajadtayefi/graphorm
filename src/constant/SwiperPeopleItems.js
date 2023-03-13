@@ -11,7 +11,7 @@ export const peopleItems = [
         paragrph: 'people-say.swiper-one.discretion',
         name: 'people-say.swiper-one.name',
         jobtitle: 'people-say.swiper-one.job-title',
-        avatar: profilePic
+        avatar: profilePic,
     }
     ,
     {
