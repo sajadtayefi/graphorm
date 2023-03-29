@@ -8,7 +8,6 @@ function App() {
   const { t } = useTranslation();
 
   const dir = t('dir');
-
   useEffect(() => {
     document.querySelector('html').setAttribute('dir', dir);
   }, [dir]);
