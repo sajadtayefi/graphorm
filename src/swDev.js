@@ -11,8 +11,10 @@ export default function SwDev() {
                     console.log("response is ok registered", registered)
                 })
                 .catch(error => {
-                    console.log("error happend mf fix it plz", error)
+                    console.log("error happend fix it plz", error)
                 })
         }
-    })
+    }, [])
+    
+    return null
 }

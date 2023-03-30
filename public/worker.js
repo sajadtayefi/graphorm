@@ -1,18 +1,20 @@
 
-var CACHE_NAME = 'pwa-task-manager';
-var urlsToCache = [
+var STATIC_CACHE = 'static-catch-v';
+var DYNAMIC_CACHE = 'dynamic-catch-v';
+var STATIC_FILE = [
   '/',
-  '/completed'
+  'index.html',
+  '/src/pages/Home.jsx'
 ];
 
 // Install a service worker
 self.addEventListener('install', event => {
   // Perform install steps
   event.waitUntil(
-    caches.open(CACHE_NAME)
+    caches.open(STATIC_CACHE)
       .then(function (cache) {
         console.log('Opened cache');
-        return cache.addAll(urlsToCache);
+        return cache.addAll(STATIC_FILE);
       })
   );
 });
@@ -34,7 +36,7 @@ self.addEventListener('fetch', event => {
 
 // Update a service worker
 self.addEventListener('activate', event => {
-  var cacheWhitelist = ['pwa-task-manager'];
+  var cacheWhitelist = [STATIC_CACHE];
   event.waitUntil(
     caches.keys().then(cacheNames => {
       return Promise.all(
