@@ -4,7 +4,7 @@ var DYNAMIC_CACHE = 'dynamic-catch-v';
 var STATIC_FILE = [
   '/',
   'index.html',
-  '/src/pages/Home.jsx'
+  '/src/App.jsx'
 ];
 
 // Install a service worker
@@ -28,7 +28,13 @@ self.addEventListener('fetch', event => {
         if (response) {
           return response;
         }
-        return fetch(event.request);
+        return fetch(event.request).then(function (res) {
+          return caches.open(DYNAMIC_CACHE)
+            .then(function (catche) {
+              catche.put(event.request.url, res.clone())
+              return res
+            })
+        })
       }
       )
   );
@@ -49,3 +55,4 @@ self.addEventListener('activate', event => {
     })
   );
 });
+
