@@ -9,18 +9,25 @@ import { useEffect, useState } from "react";
 
 function Header() {
   const { t } = useTranslation();
-  const [permission , setPermission]=useState(Notification.permission)
+  const [permission, setPermission] = useState(Notification.permission);
 
+  const eventhandler = () => {
+    if (Notification.permission === "granted") {
+      new Notification("New Message", {
+        body: "you have new message from sajad ",
+        icon: "../Asset/icon/logo.png",
+      });
+    }
+  };
 
   const notificationhander = () => {
-    Notification.requestPermission()
-    .then(permission=>{
-      setPermission(permission)
-    })
-    if(permission==='granted'){
-      console.log("granted permission")
-    }else{
-      console.log('permission faild')
+    Notification.requestPermission().then((permission) => {
+      setPermission(permission);
+    });
+    if (permission === "granted") {
+      console.log("granted permission");
+    } else {
+      console.log("permission faild");
     }
   };
   return (
@@ -30,7 +37,9 @@ function Header() {
           className=" d-flex flex-row-reverse  justify-content-center align-items-center"
           href="#"
         >
-          <span className="">{t("navbar.app-name")}</span>
+          <span onClick={eventhandler} className="">
+            {t("navbar.app-name")}
+          </span>
           <img
             onClick={notificationhander()}
             className={styles.image}
