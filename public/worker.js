@@ -1,5 +1,5 @@
 
-var STATIC_CACHE = 'static-catch-v';
+var STATIC_CACHE = 'static-catch-v2';
 var DYNAMIC_CACHE = 'dynamic-catch-v';
 var STATIC_FILE = [
   '/',
